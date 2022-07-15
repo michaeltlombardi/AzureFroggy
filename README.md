@@ -306,6 +306,7 @@ here or use a generator:
 [gif-roll]: media/fari-roll.gif
 [phiqil-json]: characters/phiqil-the-precocious.fari.json
 [picaroons-home]: https://picaroons.netlify.app/docs/picaroons/playing/
+[picaroons-tricks]: https://picaroons.netlify.app/docs/picaroons/playing/tricks/
 [random-200]: https://numbergenerator.org/randomnumbergenerator/1-200
 [random-equipment-odnd]: http://swordandscoundrel.blogspot.com/2016/04/random-starting-equipment-for-bx-or.html
 [random-equipment-mr]: https://chartopia.d12dev.com/chart/2525/
