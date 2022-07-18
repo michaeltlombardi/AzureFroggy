@@ -22,48 +22,48 @@ None.
 
 ### Dual Pistols
 
-- Die Size: Die
+- Die Size: d6
 - Trick Slots: 1 / 1
 - Marks: 0
 
 #### Tricks
 
-##### Up Close
-
-Add your trick dice when in a scrum.
-
-- Dice: 1d6
-- Uses: 1
-- Marks: 0
+> ##### Up Close
+>
+> Add your trick dice when in a scrum.
+>
+> - Dice: 1d6
+> - Uses: 1
+> - Marks: 0
 
 ### Nimble Footed
 
-- Die Size: Die
+- Die Size: d6
 - Trick Slots: 1 / 1
 - Marks: 0
 
 #### Tricks
 
-##### Feint
-
-When an opponent fails to hit you, add your trick dice to your next attack against them.
-
-- Dice: 1d6
-- Uses: 1
-- Marks: 0
+> ##### Feint
+>
+> When an opponent fails to hit you, add your trick dice to your next attack against them.
+>
+> - Dice: 1d6
+> - Uses: 1
+> - Marks: 0
 
 ### A Bag Full of Bandages
 
-- Die Size: Die
+- Die Size: d6
 - Trick Slots: 1 / 1
 - Marks: 0
 
 #### Tricks
 
-##### Patch Up
-
-When you have time to stem your bleeding, roll your trick dice to regain that much HP.
-
-- Dice: 1d6
-- Uses: 1
-- Marks: 0
+> ##### Patch Up
+>
+> When you have time to stem your bleeding, roll your trick dice to regain that much HP.
+>
+> - Dice: 1d6
+> - Uses: 1
+> - Marks: 0

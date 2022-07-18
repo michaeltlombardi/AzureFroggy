@@ -1,12 +1,12 @@
 {
-    "id": "e65aa975-b81d-4a01-ae61-44facda5541d",
-    "name": "Benji Swumpguts, Swamp Pyromancer (Pronouns)",
+    "id": "4510f97f-2551-4216-9cd9-2b00c8c84911",
+    "name": "Axel Filthrot, Failed Apothecary (Pronouns)",
     "group": "Azure Frogs",
-    "lastUpdated": 1658118131,
+    "lastUpdated": 1658080193,
     "wide": false,
     "pages": [
         {
-            "id": "374893eb-9065-4b02-975f-de16b4bcdeda",
+            "id": "8fde05fa-9be4-4c76-a25d-fb9c2e1e4bba",
             "label": "CHARACTER",
             "rows": [
                 {
@@ -14,11 +14,11 @@
                         {
                             "sections": [
                                 {
-                                    "id": "7dd1e073-a832-443c-90a3-4187c9c7079c",
+                                    "id": "1b11f587-8dfe-4066-83d2-07d1e9ac6ad3",
                                     "label": "HIT DICE",
                                     "blocks": [
                                         {
-                                            "id": "92765ea4-122b-4992-b6ec-b2497f62db37",
+                                            "id": "49e7fbed-d802-4d00-b66d-9a86afd8372c",
                                             "label": "COUNT",
                                             "type": "DicePool",
                                             "value": "",
@@ -30,17 +30,17 @@
                                             }
                                         },
                                         {
-                                            "id": "508941db-1f1f-4bd0-b832-ce8596f4cc7d",
+                                            "id": "ded05943-e414-404d-8cfa-3f2c4027acd9",
                                             "label": "HIT POINTS",
                                             "type": "PointCounter",
                                             "meta": {
                                                 "isMainPointCounter": true,
                                                 "helperText": "How many hit points you have remaining; Roll HD when you can rest in relative safely for a week: if the result is higher than your current HP, that's your new HP!"
                                             },
-                                            "value": "4"
+                                            "value": "3"
                                         },
                                         {
-                                            "id": "28941dc4-d949-421d-9766-1315033f1b3f",
+                                            "id": "008c53f0-4502-4918-9ec5-bc637bee55f8",
                                             "label": "MARKS",
                                             "type": "PointCounter",
                                             "meta": {
@@ -50,7 +50,7 @@
                                             "value": "0"
                                         },
                                         {
-                                            "id": "14289ba9-7a30-4905-af23-06bcd2ca8f59",
+                                            "id": "864b7f89-b997-4233-8f4a-0606d487f80f",
                                             "label": "DOMAINLESS ACTION",
                                             "type": "DicePool",
                                             "value": "",
@@ -65,37 +65,35 @@
                                     "visibleOnCard": true
                                 },
                                 {
-                                    "id": "4a4a08fc-b25b-42cc-b210-b74aaddaa12e",
+                                    "id": "eef91379-8d93-4580-be73-612f31fd6005",
                                     "label": "POSSESSIONS",
                                     "blocks": [
                                         {
-                                            "id": "e798e766-619a-4fde-b958-356348c2535b",
+                                            "id": "6605b626-bbed-453d-9d8e-5c7dfaacfeb4",
                                             "label": "SILVER ON HAND",
                                             "type": "Numeric",
                                             "value": "0",
                                             "meta": {}
                                         },
                                         {
-                                            "id": "a1f6cdfe-4051-4d7d-82b3-9bd8a5b6ce7b",
-                                            "label": "SILVER OWED to Dub Muskrat",
+                                            "id": "358118df-64f8-4241-8d8f-354d5018a7c3",
+                                            "label": "SILVERED OWED TO (CREDITOR)",
                                             "type": "Numeric",
-                                            "value": "800",
-                                            "meta": {
-                                                "helperText": "Owes Dub Muskrat the dowry from a wedding they stepped out on"
-                                            }
-                                        },
-                                        {
-                                            "id": "ea9fe2a3-7543-4068-bb89-adc82c5577a0",
-                                            "label": "THINGS CARRIED",
-                                            "type": "Text",
-                                            "value": "A tinderbox, compass, whittling knife, hand axe, 60ft of twine, simple cookpots, a crumpled letter.",
+                                            "value": "0",
                                             "meta": {}
                                         },
                                         {
-                                            "id": "323cf2a6-1464-4d43-8b6f-16b3512103c9",
+                                            "id": "6323fab7-caa7-4c50-a0c0-eaca7ab8ac5d",
+                                            "label": "THINGS CARRIED",
+                                            "type": "Text",
+                                            "value": "Herbalism textbook, a vial of poison, bandolier of empty glass vials, guild licence, mortar and pestle.",
+                                            "meta": {}
+                                        },
+                                        {
+                                            "id": "332a5304-95ad-4a00-955f-2aacf1f38209",
                                             "label": "THINGS STORED",
                                             "type": "Text",
-                                            "value": "A box containing an inexpensive engagement ring and a small pile of ashes.",
+                                            "value": "A simple home potion lab, a modest pantry of basic poison plants.",
                                             "meta": {}
                                         }
                                     ]
@@ -105,11 +103,11 @@
                         {
                             "sections": [
                                 {
-                                    "id": "6ac85088-10ac-4278-932a-92448a9a6bd7",
+                                    "id": "be98ab43-fcd5-4d2f-a294-2ddae614e8af",
                                     "label": "QUICK REFERENCE",
                                     "blocks": [
                                         {
-                                            "id": "27164d64-3ee3-4010-a1fc-f2697d049398",
+                                            "id": "17ec4789-1838-452d-b8dd-32b36cfbf35f",
                                             "label": "Full Rules Text",
                                             "type": "Link",
                                             "meta": {
@@ -118,14 +116,14 @@
                                             "value": "https://picaroons.netlify.app/docs/picaroons/playing/"
                                         },
                                         {
-                                            "id": "856e48c4-edd5-4885-ad09-7c7b7a33e509",
+                                            "id": "ede429af-3c82-408f-82ab-6a628dbb7476",
                                             "label": "CHARACTER CREATION",
                                             "type": "Text",
                                             "value": "HD starts at 1d6; roll it immediately to determine starting Hit Points. You also begin play with 6-HP Domains.",
                                             "meta": {}
                                         },
                                         {
-                                            "id": "43908c89-5f34-40af-8480-549a6df027b1",
+                                            "id": "42e54a8e-3e99-4956-a702-69eed7594bd2",
                                             "label": "DEBT",
                                             "type": "DicePool",
                                             "value": "",
@@ -137,14 +135,14 @@
                                             }
                                         },
                                         {
-                                            "id": "3887e188-cc25-47f8-96d4-961533c6d72d",
+                                            "id": "1b96ca1d-d6d6-4fbf-ac02-c4dc06fd67c6",
                                             "label": "ACTION RESOLUTION",
                                             "type": "Text",
                                             "value": "When an outcome is uncertain, roll d6; on 5+ (unless otherwise stated), succeed. When an outcome is contested, all sides roll d6; results favor higher rolls. If any domains are applicable to the uncertain or contested action, roll the highest applicable domain die and take the best result.\n\nAny time a die rolls its max result (6 on d6, 8 on d8), mark it. When you have marked a die as many times as the max, you can clear the marks to increase it by one step (d6 &gt; d8).\n\nWhen in an action scene, participants declare up to two actions in order from lowest HD to highest. Where there are ties, agree who goes first or roll off. All actions are resolved simultaneously as makes sense.\n\nDistances are tracked as zones: adjacent, nearby, distant, and far. Participants can move anywhere nearby as an action or distant as two actions.\r\n\nAttacks are always contested. In melee, the highest result is the damage dealt to the participant with the lowest result. At range, if the shooter’s result is lower, they miss.\n\r\n",
                                             "meta": {}
                                         },
                                         {
-                                            "id": "2c4b3a2c-b047-4bd4-9fc9-572294bbd495",
+                                            "id": "b82e32ca-631d-47cd-b7f4-95a119852725",
                                             "label": "AT 0 HP",
                                             "type": "Text",
                                             "value": "When you drop to 0HP, choose one immediately:\n\n1. Carry On: Transfer all of your current marks to a loved one. You have died, but live on in them.\n2. Save Self: Make a test; if successful, return to 1HP but unable to participate for the rest of the scene.\n3. Use It: Sacrifice a HD to get back into it; reroll remaining HD to determine new your HP.\n4. Wait It Out: Roll HD; unless someone renders first aid in that many rounds, you die.\n\nA friend can spend an action to provide first aid, testing as normal to bring you back to 1HP. Alternatively, if rendering first aid after the combat scene ends, automatically succeed without a test.\n",
@@ -159,7 +157,7 @@
             ]
         },
         {
-            "id": "3933dc03-da20-4ed4-bae4-b74fcd40678c",
+            "id": "e6c6c42f-0509-479d-9ee2-5688dd635780",
             "label": "DOMAINS",
             "rows": [
                 {
@@ -167,23 +165,24 @@
                         {
                             "sections": [
                                 {
-                                    "id": "f572c7ed-836c-4015-b43d-48ec982d8d7f",
-                                    "label": "Pyromancy",
+                                    "id": "e978b829-73d6-4058-92f8-0d9038f0b318",
+                                    "label": "Poisoner",
                                     "blocks": [
                                         {
-                                            "id": "735d830d-4680-4d2e-a0f9-c6bb26323216",
+                                            "id": "9b77cfb4-8053-40b0-8856-d4a85a44c92d",
                                             "label": "DOMAIN DIE (D6)",
                                             "type": "DicePool",
                                             "value": "",
                                             "meta": {
                                                 "commands": [
+                                                    "1d6",
                                                     "1d6"
                                                 ],
                                                 "helperText": "Roll whenever this domain is applicable. If you increase the die size, be sure to reset the dice and then select a d6 and your new domain die size (e.g. d6 and d8). The higher result is better!"
                                             }
                                         },
                                         {
-                                            "id": "80677623-fb62-4059-a214-7b7cd8c897ab",
+                                            "id": "046cc6b1-761c-44eb-99ea-0bad79ccf871",
                                             "label": "MARKS",
                                             "type": "PointCounter",
                                             "meta": {
@@ -193,7 +192,7 @@
                                             "value": "0"
                                         },
                                         {
-                                            "id": "ccb61e29-c7ae-4260-8405-4aa00e587974",
+                                            "id": "8101924e-6126-4a7f-b399-77b9e270e1e8",
                                             "label": "AVAILABLE TRICKS",
                                             "type": "SlotTracker",
                                             "meta": {
@@ -207,10 +206,10 @@
                                             ]
                                         },
                                         {
-                                            "id": "94152fe5-2bb0-442e-b79c-2011701c5c7a",
+                                            "id": "ca66ebd6-eda2-4230-89bb-f749e9e6e138",
                                             "label": "TRICKS",
                                             "type": "Text",
-                                            "value": "- Spit Fire\n",
+                                            "value": "- Concoct\n",
                                             "meta": {
                                                 "helperText": "List your tricks here for easier remembering."
                                             }
@@ -222,23 +221,24 @@
                         {
                             "sections": [
                                 {
-                                    "id": "efa14bb6-0e2f-4a70-86aa-7fac0688215d",
-                                    "label": "Hand Axe",
+                                    "id": "dad5a006-195d-4364-b26a-ecce80881c60",
+                                    "label": "Guild Member",
                                     "blocks": [
                                         {
-                                            "id": "0fadc496-ec65-4ee1-a1af-32f2a6fb166e",
+                                            "id": "e894e1ee-bf2e-47b8-8182-c1a4d3dbaefc",
                                             "label": "DOMAIN DIE (D6)",
                                             "type": "DicePool",
                                             "value": "",
                                             "meta": {
                                                 "commands": [
+                                                    "1d6",
                                                     "1d6"
                                                 ],
                                                 "helperText": "Roll whenever this domain is applicable. If you increase the die size, be sure to reset the dice and then select a d6 and your new domain die size (e.g. d6 and d8). The higher result is better!"
                                             }
                                         },
                                         {
-                                            "id": "6b0be943-734b-46a7-907f-48494d6d8c7d",
+                                            "id": "46e94eba-ee4a-480e-b958-18235ba11629",
                                             "label": "MARKS",
                                             "type": "PointCounter",
                                             "meta": {
@@ -248,7 +248,7 @@
                                             "value": "0"
                                         },
                                         {
-                                            "id": "9557b40d-d488-4c13-bf6c-9c7b86fa2459",
+                                            "id": "b5280c13-770d-4a6f-b66a-9339f03dc0dd",
                                             "label": "AVAILABLE TRICKS",
                                             "type": "SlotTracker",
                                             "meta": {
@@ -262,10 +262,10 @@
                                             ]
                                         },
                                         {
-                                            "id": "a957019d-ee34-4bd1-940e-0949bcac2496",
+                                            "id": "b2d40376-37be-4e84-bbee-7c378974a54e",
                                             "label": "TRICKS",
                                             "type": "Text",
-                                            "value": "Axe Throwing\n",
+                                            "value": "- Safe Passage\n",
                                             "meta": {
                                                 "helperText": "List your tricks here for easier remembering."
                                             }
@@ -281,23 +281,24 @@
                         {
                             "sections": [
                                 {
-                                    "id": "a1ec9437-34fd-464c-bbf5-e33a9c827228",
-                                    "label": "Potioncraft",
+                                    "id": "76047c29-e78f-40ba-bd27-a87493c92e43",
+                                    "label": "Plantlore",
                                     "blocks": [
                                         {
-                                            "id": "b00f404e-75c3-433d-b776-210a70b07ad0",
+                                            "id": "87118ead-7680-419a-9fd2-ef550bb6089d",
                                             "label": "DOMAIN DIE (D6)",
                                             "type": "DicePool",
                                             "value": "",
                                             "meta": {
                                                 "commands": [
+                                                    "1d6",
                                                     "1d6"
                                                 ],
                                                 "helperText": "Roll whenever this domain is applicable. If you increase the die size, be sure to reset the dice and then select a d6 and your new domain die size (e.g. d6 and d8). The higher result is better!"
                                             }
                                         },
                                         {
-                                            "id": "93d10a9a-85ed-4a21-8ad9-0d34f2fb506f",
+                                            "id": "a8debfa6-a262-4b83-928c-253de2f4c51b",
                                             "label": "MARKS",
                                             "type": "PointCounter",
                                             "meta": {
@@ -307,7 +308,7 @@
                                             "value": "0"
                                         },
                                         {
-                                            "id": "6a2de7a4-bf8f-4755-98f0-f68950af7eb2",
+                                            "id": "ee4774d5-5d5b-4cd5-b8d8-75f8676125dc",
                                             "label": "AVAILABLE TRICKS",
                                             "type": "SlotTracker",
                                             "meta": {
@@ -321,10 +322,10 @@
                                             ]
                                         },
                                         {
-                                            "id": "ec4357e4-8b8a-4262-8261-a448bf8efcad",
+                                            "id": "528b23d4-7094-4beb-87d6-027b27806751",
                                             "label": "TRICKS",
                                             "type": "Text",
-                                            "value": "- Poultice\n",
+                                            "value": "- Sommelier\n",
                                             "meta": {
                                                 "helperText": "List your tricks here for easier remembering."
                                             }
@@ -334,125 +335,14 @@
                             ]
                         },
                         {
-                            "sections": [
-                                {
-                                    "id": "a5f5185c-b1d5-4536-85ab-a6397d85dc03",
-                                    "label": "Navigation",
-                                    "blocks": [
-                                        {
-                                            "id": "b944c5b9-949f-44f6-b1b0-a0666b81cefd",
-                                            "label": "DOMAIN DIE (D6)",
-                                            "type": "DicePool",
-                                            "value": "",
-                                            "meta": {
-                                                "commands": [
-                                                    "1d6"
-                                                ],
-                                                "helperText": "Roll whenever this domain is applicable. If you increase the die size, be sure to reset the dice and then select a d6 and your new domain die size (e.g. d6 and d8). The higher result is better!"
-                                            }
-                                        },
-                                        {
-                                            "id": "ea0c37f1-cd5c-4398-82cf-32d45582b6ec",
-                                            "label": "MARKS",
-                                            "type": "PointCounter",
-                                            "meta": {
-                                                "isMainPointCounter": false,
-                                                "helperText": "Every time you roll max result for your domain die add a mark; so if you roll your d6 domain die and get a 6, you'd get a mark!<br><br>While resting, you can spend your marks (cost in parentheses) to:<br><br>- Increase the die size by one step (die size)<br>- Gain a trick slot (3x trick slot count)<br><br>"
-                                            },
-                                            "value": "0"
-                                        },
-                                        {
-                                            "id": "f58bd466-d9d5-4e03-9696-362caf21f975",
-                                            "label": "AVAILABLE TRICKS",
-                                            "type": "SlotTracker",
-                                            "meta": {
-                                                "helperText": "How many tricks you can have for this domain; always at least one."
-                                            },
-                                            "value": [
-                                                {
-                                                    "label": "",
-                                                    "checked": false
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "id": "afd68712-5e86-4bc5-8f5b-b84b19aff756",
-                                            "label": "TRICKS",
-                                            "type": "Text",
-                                            "value": "- Fly by Night\n",
-                                            "meta": {
-                                                "helperText": "List your tricks here for easier remembering."
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "columns": [
-                        {
-                            "sections": [
-                                {
-                                    "id": "ae268938-ed90-4033-8f3e-8aa8d2082f43",
-                                    "label": "Whittling",
-                                    "blocks": [
-                                        {
-                                            "id": "0c4870b6-f4d3-4dc8-8b6d-95c5c29ee87d",
-                                            "label": "DOMAIN DIE (D6)",
-                                            "type": "DicePool",
-                                            "value": "",
-                                            "meta": {
-                                                "commands": [
-                                                    "1d6"
-                                                ],
-                                                "helperText": "Roll whenever this domain is applicable. If you increase the die size, be sure to reset the dice and then select a d6 and your new domain die size (e.g. d6 and d8). The higher result is better!"
-                                            }
-                                        },
-                                        {
-                                            "id": "d0e675fb-42e8-459b-8295-b16f6300c969",
-                                            "label": "MARKS",
-                                            "type": "PointCounter",
-                                            "meta": {
-                                                "isMainPointCounter": false,
-                                                "helperText": "Every time you roll max result for your domain die add a mark; so if you roll your d6 domain die and get a 6, you'd get a mark!<br><br>While resting, you can spend your marks (cost in parentheses) to:<br><br>- Increase the die size by one step (die size)<br>- Gain a trick slot (3x trick slot count)<br><br>"
-                                            },
-                                            "value": "0"
-                                        },
-                                        {
-                                            "id": "b196ef31-db0e-44ee-9725-51d136ef3265",
-                                            "label": "AVAILABLE TRICKS",
-                                            "type": "SlotTracker",
-                                            "meta": {
-                                                "helperText": "How many tricks you can have for this domain; always at least one."
-                                            },
-                                            "value": [
-                                                {
-                                                    "label": "",
-                                                    "checked": false
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "id": "f9d9277a-7fb1-492d-b77a-89da230d0c90",
-                                            "label": "TRICKS",
-                                            "type": "Text",
-                                            "value": "- Incredible Craftsmanship\n",
-                                            "meta": {
-                                                "helperText": "List your tricks here for easier remembering."
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
+                            "sections": []
                         }
                     ]
                 }
             ]
         },
         {
-            "id": "cf476ee6-4d23-48bf-817c-b8c27de91ceb",
+            "id": "b9a890a9-def0-4a25-bd25-745d568e56b3",
             "label": "TRICKS",
             "rows": [
                 {
@@ -460,11 +350,11 @@
                         {
                             "sections": [
                                 {
-                                    "id": "a2a52bfa-61b2-4937-afaf-0b2c8114257b",
-                                    "label": "Spit Fire (Pyromancy)",
+                                    "id": "08fd2fd8-dcdc-4f91-a7d2-455d44ae954f",
+                                    "label": "Concoct (Poisoner)",
                                     "blocks": [
                                         {
-                                            "id": "133855dd-83f6-487d-a386-1f564d56e7bc",
+                                            "id": "b0ab9bf0-693e-4dec-9258-8ef7cc75865b",
                                             "label": "TRICK DICE",
                                             "type": "DicePool",
                                             "value": "",
@@ -476,14 +366,14 @@
                                             }
                                         },
                                         {
-                                            "id": "6ba975d6-32b4-4cc5-bfc8-f3b4ce239955",
+                                            "id": "d7de06f4-5992-49be-9146-ea1e9ddd0b11",
                                             "label": "TRIGGER &AMP; EFFECT",
                                             "type": "Text",
-                                            "value": "When surrounded, roll the trick die to to deal that much damage to everyone in close range.\n",
+                                            "value": "When brewing a poison, roll your trick die and choose: The poison causes the target to lose that much health, or sleep for that many days. \n",
                                             "meta": {}
                                         },
                                         {
-                                            "id": "993b399b-a4be-41c2-bf7b-cb18094a4432",
+                                            "id": "0d643396-93bb-4d63-a756-f41cd04aee0a",
                                             "label": "USES",
                                             "type": "SlotTracker",
                                             "meta": {
@@ -497,7 +387,7 @@
                                             ]
                                         },
                                         {
-                                            "id": "d6fe25c0-1206-4d33-93d0-c8188893b5ef",
+                                            "id": "5d39e026-c079-4c1e-815f-6e73d1b0c214",
                                             "label": "MARKS",
                                             "type": "PointCounter",
                                             "meta": {
@@ -513,11 +403,11 @@
                         {
                             "sections": [
                                 {
-                                    "id": "827f6da9-a590-4e16-acc6-80b33ca241bc",
-                                    "label": "Axe Throwing (Hand Axe)",
+                                    "id": "b0cd642d-0dea-46ac-a5da-dff3382f7600",
+                                    "label": "Safe Passage (Guild Member)",
                                     "blocks": [
                                         {
-                                            "id": "14c83e56-6418-4665-bde1-ab8b516a0ac3",
+                                            "id": "90836b72-4a79-4fbf-967c-6cf1f88c4f1f",
                                             "label": "TRICK DICE",
                                             "type": "DicePool",
                                             "value": "",
@@ -529,14 +419,14 @@
                                             }
                                         },
                                         {
-                                            "id": "bc923766-70bf-4e46-93ff-d88bcc8fc622",
+                                            "id": "25ac181b-19ea-4d44-8d18-b813925be7d3",
                                             "label": "TRIGGER &AMP; EFFECT",
                                             "type": "Text",
-                                            "value": "When you fling your axe with purpose, roll the trick dice in addition to your damage.\n",
+                                            "value": "Add your trick die to any difficult dealings with authority.\n",
                                             "meta": {}
                                         },
                                         {
-                                            "id": "7eacc1dc-f792-47e8-a2d7-a37a8b9af629",
+                                            "id": "8f62147b-78d7-43e1-8184-d5400faf3532",
                                             "label": "USES",
                                             "type": "SlotTracker",
                                             "meta": {
@@ -550,7 +440,7 @@
                                             ]
                                         },
                                         {
-                                            "id": "be4f62cc-d62e-4bff-be56-872f8ef9017a",
+                                            "id": "78ba7fd8-02c5-4f1b-84b6-8992b0b2245e",
                                             "label": "MARKS",
                                             "type": "PointCounter",
                                             "meta": {
@@ -570,11 +460,11 @@
                         {
                             "sections": [
                                 {
-                                    "id": "264667c9-bb72-4b27-8a93-c07f3a9e92ce",
-                                    "label": "Poultice (Potioncraft)",
+                                    "id": "0ea9805e-6035-4870-8069-68c9957d2136",
+                                    "label": "Sommelier (Plantlore)",
                                     "blocks": [
                                         {
-                                            "id": "ec736c86-b2e2-408e-8bbd-276a2ab3c128",
+                                            "id": "3288bfe9-a44e-456a-ad77-f24928b7f5e5",
                                             "label": "TRICK DICE",
                                             "type": "DicePool",
                                             "value": "",
@@ -586,14 +476,14 @@
                                             }
                                         },
                                         {
-                                            "id": "3c9bfb75-ebfa-445b-b827-19d542227f5a",
+                                            "id": "556e11b8-5b14-48bf-8983-4fcc29a0eca9",
                                             "label": "TRIGGER &AMP; EFFECT",
                                             "type": "Text",
-                                            "value": "When a character rubs your mixture into a wound, roll the trick dice. They heal that much HP.\n",
+                                            "value": "When tasting food or drink, roll your trick die. You can identify that many ingredients, starting with any poisons\n",
                                             "meta": {}
                                         },
                                         {
-                                            "id": "245f8281-e866-443f-9823-61fe1f70b5b0",
+                                            "id": "94dcc5ad-c3c0-47fa-ac1b-aac119d58b20",
                                             "label": "USES",
                                             "type": "SlotTracker",
                                             "meta": {
@@ -607,7 +497,7 @@
                                             ]
                                         },
                                         {
-                                            "id": "46c3ba93-ea59-4ec2-874e-c7fb67864654",
+                                            "id": "8531fcc2-7f5d-4825-a172-0a3ebe40a1da",
                                             "label": "MARKS",
                                             "type": "PointCounter",
                                             "meta": {
@@ -621,121 +511,14 @@
                             ]
                         },
                         {
-                            "sections": [
-                                {
-                                    "id": "4b49f6ce-1de1-4295-820d-031271467e21",
-                                    "label": "Fly by Night (Navigation)",
-                                    "blocks": [
-                                        {
-                                            "id": "5884ce3f-de4d-4f2a-a773-d28b3c1a0036",
-                                            "label": "TRICK DICE",
-                                            "type": "DicePool",
-                                            "value": "",
-                                            "meta": {
-                                                "commands": [
-                                                    "1d6"
-                                                ],
-                                                "helperText": ""
-                                            }
-                                        },
-                                        {
-                                            "id": "414a4f64-f3dc-4364-9edf-45ea01963353",
-                                            "label": "TRIGGER &AMP; EFFECT",
-                                            "type": "Text",
-                                            "value": "When you can see the stars, roll the trick dice. For the next [result] miles, you're travelling in the right direction.\n",
-                                            "meta": {}
-                                        },
-                                        {
-                                            "id": "9b2ab8b6-ec93-4925-9141-9995e0281e28",
-                                            "label": "USES",
-                                            "type": "SlotTracker",
-                                            "meta": {
-                                                "helperText": "By default, you can use your tricks once per scene. Spend marks to increase!"
-                                            },
-                                            "value": [
-                                                {
-                                                    "label": "",
-                                                    "checked": false
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "id": "90948086-b2d2-4b63-9846-bd6f0afc0dc4",
-                                            "label": "MARKS",
-                                            "type": "PointCounter",
-                                            "meta": {
-                                                "isMainPointCounter": false,
-                                                "helperText": "Every time you roll max result for your trick dice add a mark; so if you roll your 2d6 trick dice and get a 4 and 6, you'd get a mark!<br><br>While resting, you can spend your marks(cost in parentheses) to:<br><br>- Increase the die size by one step (die size)<br>- Add another die (combined max)<br>- Gain another user per scene<br><br>"
-                                            },
-                                            "value": "0"
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "columns": [
-                        {
-                            "sections": [
-                                {
-                                    "id": "a5c06684-41af-4f32-a7b0-bf72665700ba",
-                                    "label": "Incredible Craftsmanship (Whittling)",
-                                    "blocks": [
-                                        {
-                                            "id": "ee28a68c-0c5b-413e-97f3-95391767e757",
-                                            "label": "TRICK DICE",
-                                            "type": "DicePool",
-                                            "value": "",
-                                            "meta": {
-                                                "commands": [
-                                                    "1d6"
-                                                ],
-                                                "helperText": ""
-                                            }
-                                        },
-                                        {
-                                            "id": "0ccd104a-fa87-4b1d-acc2-4475486b4264",
-                                            "label": "TRIGGER &AMP; EFFECT",
-                                            "type": "Text",
-                                            "value": "When you carve a figure in the image of a merchant, roll the trick dice. They'll pay that much for the carving.\n",
-                                            "meta": {}
-                                        },
-                                        {
-                                            "id": "0a077e8c-1c9a-451e-a498-8f338c455d04",
-                                            "label": "USES",
-                                            "type": "SlotTracker",
-                                            "meta": {
-                                                "helperText": "By default, you can use your tricks once per scene. Spend marks to increase!"
-                                            },
-                                            "value": [
-                                                {
-                                                    "label": "",
-                                                    "checked": false
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "id": "e7837020-a041-49ee-a6a9-910ec50a025b",
-                                            "label": "MARKS",
-                                            "type": "PointCounter",
-                                            "meta": {
-                                                "isMainPointCounter": false,
-                                                "helperText": "Every time you roll max result for your trick dice add a mark; so if you roll your 2d6 trick dice and get a 4 and 6, you'd get a mark!<br><br>While resting, you can spend your marks(cost in parentheses) to:<br><br>- Increase the die size by one step (die size)<br>- Add another die (combined max)<br>- Gain another user per scene<br><br>"
-                                            },
-                                            "value": "0"
-                                        }
-                                    ]
-                                }
-                            ]
+                            "sections": []
                         }
                     ]
                 }
             ]
         },
         {
-            "id": "7381d880-ae66-48e1-9ab1-62a74086155f",
+            "id": "ed61e7f4-6b99-4897-bc6f-6e588ae23942",
             "label": "COMPANIONS &AMP; HIRELINGS",
             "rows": [
                 {
@@ -743,11 +526,11 @@
                         {
                             "sections": [
                                 {
-                                    "id": "0b3e7410-2468-4657-8be0-09911fac3499",
+                                    "id": "8d45ddfa-95e1-4aa9-b79f-331a135c12bf",
                                     "label": "COMPANIONS",
                                     "blocks": [
                                         {
-                                            "id": "f5262461-cade-400d-8604-2912ac2895f7",
+                                            "id": "043f8f23-3d9d-4e2d-9d28-b55ad354b8e0",
                                             "label": "COMPANION SLOTS",
                                             "type": "SlotTracker",
                                             "meta": {
@@ -756,14 +539,14 @@
                                             "value": []
                                         },
                                         {
-                                            "id": "c8ff4c95-5df5-4efc-b8da-609dc68f46e6",
+                                            "id": "f9d44e30-431c-43a6-89f9-485bdcd976c8",
                                             "label": "LIST OF COMPANIONS",
                                             "type": "Text",
                                             "value": "",
                                             "meta": {}
                                         },
                                         {
-                                            "id": "6b00a87b-314f-4d15-bedd-034d34d23a35",
+                                            "id": "b5db3c80-85be-4958-876a-cd17a8411b86",
                                             "label": "RULES",
                                             "type": "Text",
                                             "value": "You can have as many companions as you have companion slots, if you can convince them to follow you. Companions are picaroons in their own right.\n\nHirelings are temporary followers who expect to be remunerated at least weekly and daily if asked to face danger (costs in silver).\n\nCost modifiers:\n\n* +1s per HD and die step\n* +1s per Domain die step\n* +1s per Trick die, die step, and extra use\n\n",
@@ -776,11 +559,11 @@
                         {
                             "sections": [
                                 {
-                                    "id": "938dd2f5-0012-4304-970b-040be6f33542",
+                                    "id": "616f859a-7758-4951-aa3b-8cbcba28bf42",
                                     "label": "HIRELING: NAME (PRONOUNS)",
                                     "blocks": [
                                         {
-                                            "id": "744f557f-5fc6-450e-8d35-77fa1a9c6497",
+                                            "id": "4fcd0569-0ade-4949-8d63-221489fa373c",
                                             "label": "HIT DICE",
                                             "type": "DicePool",
                                             "value": "",
@@ -791,7 +574,7 @@
                                             }
                                         },
                                         {
-                                            "id": "12171e89-50f6-4d21-bbbc-0385dfd2fd46",
+                                            "id": "031843ae-a983-4ff8-992f-87785b45b12c",
                                             "label": "HIT POINTS",
                                             "type": "PointCounter",
                                             "meta": {
@@ -801,7 +584,7 @@
                                             "value": "0"
                                         },
                                         {
-                                            "id": "2ab179b5-642e-4283-ab27-00395ccdb5c5",
+                                            "id": "c79789a9-545c-48a8-aa4a-ee52936ea3ad",
                                             "label": "DOMAIN: NAME",
                                             "type": "DicePool",
                                             "value": "",
@@ -813,7 +596,7 @@
                                             }
                                         },
                                         {
-                                            "id": "ad7feadb-a4ca-43f2-9ab7-71f6464529b8",
+                                            "id": "47422074-cdc5-40c1-965d-efecf2840740",
                                             "label": "TRICK: NAME",
                                             "type": "DicePool",
                                             "value": "",
@@ -825,7 +608,7 @@
                                             }
                                         },
                                         {
-                                            "id": "fb5f4685-ad73-4132-93a7-a6d2e43dc607",
+                                            "id": "eecdeba0-9e30-410b-abf3-bef2e056cfe1",
                                             "label": "EXPECTED PAY IN SILVER",
                                             "type": "Numeric",
                                             "value": "",

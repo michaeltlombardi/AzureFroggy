@@ -72,6 +72,10 @@ class Die {
   Die([string]$DiceString) {
     $this.Size = $DiceString -split 'd' | Select-Object -Last 1
   }
+
+  [string] ToString() {
+    return "d$($this.Size)"
+  }
 }
 
 class Dice {
@@ -177,14 +181,14 @@ class Trick {
 
   [string] ToMarkdownSection() {
     return @(
-      "##### $($this.Name)"
-      $this.Description.Trim()
+      "> ##### $($this.Name)"
+      $this.Description.Trim() -split "`n" | ForEach-Object { "> $_" } | Join-String -Separator "`n"
       @(
-        "- Dice: $($this.Dice.ToString())"
-        "- Uses: $($this.Uses)"
-        "- Marks: $($this.Marks)"
+        "> - Dice: $($this.Dice.ToString())"
+        "> - Uses: $($this.Uses)"
+        "> - Marks: $($this.Marks)"
       ) -join "`n"
-    ) -join "`n`n"
+    ) -join "`n>`n"
   }
 }
 
@@ -463,7 +467,8 @@ function Export-Picaroon {
     $null = $Builder.AppendLine($Character.Possessions.ToMarkdownSection()).AppendLine()
     $null = $Builder.AppendLine('## Domains').AppendLine()
     $null = $Builder.AppendLine($Character.Domains.ToMarkdownSection() -join "`n`n").AppendLine()
-    $Builder.ToString().Trim() | Set-Content -Path $OutputPath
+    $Builder.ToString().Trim() -replace "`r`n", "`n" | Set-Content -Path $OutputPath -NoNewline
+    Add-Content -Path $OutputPath -Value "`n" -NoNewline
   }
 }
 
