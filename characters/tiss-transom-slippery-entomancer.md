@@ -16,7 +16,7 @@
 
 ### Debts
 
-None.
+- 1900 to Moe Stagwhale: You mortgaged your expensive violin to pay for adventuring school. Moe Stagwhale will not be happy if you miss a payment.&nbsp;
 
 ## Domains
 

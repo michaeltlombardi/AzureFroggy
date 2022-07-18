@@ -16,7 +16,7 @@
 
 ### Debts
 
-- 999 to The Church: Gambling debts owed to the church, but specifically Deacon Eavesnest, who is a bigger cheat than even you.
+- 1400 to The Church: Gambling debts owed to the church, but specifically Deacon Eavesnest, who is a bigger cheat than even you.
 
 ## Domains
 
