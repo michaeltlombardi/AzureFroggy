@@ -28,13 +28,13 @@ None.
 
 #### Tricks
 
-##### Concoct
-
-When brewing a poison, roll your trick die and choose: The poison causes the target to lose that much health, or sleep for that many days.
-
-- Dice: 1d6
-- Uses: 1
-- Marks: 0
+> ##### Concoct
+>
+> When brewing a poison, roll your trick die and choose: The poison causes the target to lose that much health, or sleep for that many days.
+>
+> - Dice: 1d6
+> - Uses: 1
+> - Marks: 0
 
 ### Guild Member
 
@@ -44,13 +44,13 @@ When brewing a poison, roll your trick die and choose: The poison causes the tar
 
 #### Tricks
 
-##### Safe Passage
-
-Add your trick die to any difficult dealings with authority.
-
-- Dice: 1d6
-- Uses: 1
-- Marks: 0
+> ##### Safe Passage
+>
+> Add your trick die to any difficult dealings with authority.
+>
+> - Dice: 1d6
+> - Uses: 1
+> - Marks: 0
 
 ### Plantlore
 
@@ -60,10 +60,10 @@ Add your trick die to any difficult dealings with authority.
 
 #### Tricks
 
-##### Sommelier
-
-When tasting food or drink, roll your trick die. You can identify that many ingredients, starting with any poisons
-
-- Dice: 1d6
-- Uses: 1
-- Marks: 0
+> ##### Sommelier
+>
+> When tasting food or drink, roll your trick die. You can identify that many ingredients, starting with any poisons
+>
+> - Dice: 1d6
+> - Uses: 1
+> - Marks: 0

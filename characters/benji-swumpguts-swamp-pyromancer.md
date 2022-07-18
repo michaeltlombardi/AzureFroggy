@@ -28,13 +28,13 @@
 
 #### Tricks
 
-##### Spit Fire
-
-When surrounded, roll the trick die to to deal that much damage to everyone in close range.
-
-- Dice: 1d6
-- Uses: 1
-- Marks: 0
+> ##### Spit Fire
+>
+> When surrounded, roll the trick die to to deal that much damage to everyone in close range.
+>
+> - Dice: 1d6
+> - Uses: 1
+> - Marks: 0
 
 ### Hand Axe
 
@@ -44,13 +44,13 @@ When surrounded, roll the trick die to to deal that much damage to everyone in c
 
 #### Tricks
 
-##### Axe Throwing
-
-When you fling your axe with purpose, roll the trick dice in addition to your damage.
-
-- Dice: 1d6
-- Uses: 1
-- Marks: 0
+> ##### Axe Throwing
+>
+> When you fling your axe with purpose, roll the trick dice in addition to your damage.
+>
+> - Dice: 1d6
+> - Uses: 1
+> - Marks: 0
 
 ### Potioncraft
 
@@ -60,13 +60,13 @@ When you fling your axe with purpose, roll the trick dice in addition to your da
 
 #### Tricks
 
-##### Poultice
-
-When a character rubs your mixture into a wound, roll the trick dice. They heal that much HP.
-
-- Dice: 1d6
-- Uses: 1
-- Marks: 0
+> ##### Poultice
+>
+> When a character rubs your mixture into a wound, roll the trick dice. They heal that much HP.
+>
+> - Dice: 1d6
+> - Uses: 1
+> - Marks: 0
 
 ### Navigation
 
@@ -76,13 +76,13 @@ When a character rubs your mixture into a wound, roll the trick dice. They heal 
 
 #### Tricks
 
-##### Fly by Night
-
-When you can see the stars, roll the trick dice. For the next [result] miles, you're travelling in the right direction.
-
-- Dice: 1d6
-- Uses: 1
-- Marks: 0
+> ##### Fly by Night
+>
+> When you can see the stars, roll the trick dice. For the next [result] miles, you're travelling in the right direction.
+>
+> - Dice: 1d6
+> - Uses: 1
+> - Marks: 0
 
 ### Whittling
 
@@ -92,10 +92,10 @@ When you can see the stars, roll the trick dice. For the next [result] miles, yo
 
 #### Tricks
 
-##### Incredible Craftsmanship
-
-When you carve a figure in the image of a merchant, roll the trick dice. They'll pay that much for the carving.
-
-- Dice: 1d6
-- Uses: 1
-- Marks: 0
+> ##### Incredible Craftsmanship
+>
+> When you carve a figure in the image of a merchant, roll the trick dice. They'll pay that much for the carving.
+>
+> - Dice: 1d6
+> - Uses: 1
+> - Marks: 0

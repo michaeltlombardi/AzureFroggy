@@ -29,13 +29,13 @@
 
 #### Tricks
 
-##### Trick Shot
-
-When attacking at range, add the trick die to your total.
-
-- Dice: 1d6
-- Uses: 1
-- Marks: 0
+> ##### Trick Shot
+>
+> When attacking at range, add the trick die to your total.
+>
+> - Dice: 1d6
+> - Uses: 1
+> - Marks: 0
 
 ### Flyering
 
@@ -45,10 +45,10 @@ When attacking at range, add the trick die to your total.
 
 #### Tricks
 
-##### Part Time Job
-
-Whenever you put up a flyer, roll the trick die. The business gets that many new customers.
-
-- Dice: 1d6
-- Uses: 1
-- Marks: 0
+> ##### Part Time Job
+>
+> Whenever you put up a flyer, roll the trick die. The business gets that many new customers.
+>
+> - Dice: 1d6
+> - Uses: 1
+> - Marks: 0

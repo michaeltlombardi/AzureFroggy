@@ -28,13 +28,13 @@ None.
 
 #### Tricks
 
-##### Literature
-
-When encountering a new situation, roll your trick dice. You have that many wildly misinformed leaflets on the subject.
-
-- Dice: 1d6
-- Uses: 1
-- Marks: 0
+> ##### Literature
+>
+> When encountering a new situation, roll your trick dice. You have that many wildly misinformed leaflets on the subject.
+>
+> - Dice: 1d6
+> - Uses: 1
+> - Marks: 0
 
 ### Street Rat
 
@@ -44,13 +44,13 @@ When encountering a new situation, roll your trick dice. You have that many wild
 
 #### Tricks
 
-##### Panhandling
-
-When you spend time begging on the street, roll your trick dice. You get that much silver, but on a 6 the authorities are after you.
-
-- Dice: 1d6
-- Uses: 1
-- Marks: 0
+> ##### Panhandling
+>
+> When you spend time begging on the street, roll your trick dice. You get that much silver, but on a 6 the authorities are after you.
+>
+> - Dice: 1d6
+> - Uses: 1
+> - Marks: 0
 
 ### Heavy Hammer
 
@@ -60,10 +60,10 @@ When you spend time begging on the street, roll your trick dice. You get that mu
 
 #### Tricks
 
-##### Skull Cracking
-
-Add your trick dice when you get a clear blow at an enemy's face.
-
-- Dice: 1d6
-- Uses: 1
-- Marks: 0
+> ##### Skull Cracking
+>
+> Add your trick dice when you get a clear blow at an enemy's face.
+>
+> - Dice: 1d6
+> - Uses: 1
+> - Marks: 0

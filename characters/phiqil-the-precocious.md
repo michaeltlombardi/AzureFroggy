@@ -28,13 +28,13 @@ None.
 
 #### Tricks
 
-##### Discovery
-
-Roll this trick when encountering more than one book; you unerringly find books containing up to result bits of useful information.
-
-- Dice: 1d6
-- Uses: 1
-- Marks: 0
+> ##### Discovery
+>
+> Roll this trick when encountering more than one book; you unerringly find books containing up to result bits of useful information.
+>
+> - Dice: 1d6
+> - Uses: 1
+> - Marks: 0
 
 ### Hydromancy
 
@@ -44,13 +44,13 @@ Roll this trick when encountering more than one book; you unerringly find books 
 
 #### Tricks
 
-##### (De)Humidifier
-
-Roll this trick whenever you want to create or evaporate water. Result gallons appear/or disappear on your command.
-
-- Dice: 1d6
-- Uses: 1
-- Marks: 0
+> ##### (De)Humidifier
+>
+> Roll this trick whenever you want to create or evaporate water. Result gallons appear/or disappear on your command.
+>
+> - Dice: 1d6
+> - Uses: 1
+> - Marks: 0
 
 ### Arithmancy
 
@@ -60,13 +60,13 @@ Roll this trick whenever you want to create or evaporate water. Result gallons a
 
 #### Tricks
 
-##### Instant Calculation
-
-Roll this trick when trying to count, measure, or otherwise solve a problem with a numerical answer, adding the result to your test.
-
-- Dice: 1d6
-- Uses: 1
-- Marks: 0
+> ##### Instant Calculation
+>
+> Roll this trick when trying to count, measure, or otherwise solve a problem with a numerical answer, adding the result to your test.
+>
+> - Dice: 1d6
+> - Uses: 1
+> - Marks: 0
 
 ### Geomancy
 
@@ -76,11 +76,11 @@ Roll this trick when trying to count, measure, or otherwise solve a problem with
 
 #### Tricks
 
-##### Lapidarian Tongue
-
-Roll this trick when you lick a rock.
-On a 1, nothing happens; on 2-5, you know exactly what the rock is; on a 6 or higher, you can taste the history of the world through it. Ask any question the rock might know and the ref will answer.
-
-- Dice: 1d6
-- Uses: 1
-- Marks: 0
+> ##### Lapidarian Tongue
+>
+> Roll this trick when you lick a rock.
+> On a 1, nothing happens; on 2-5, you know exactly what the rock is; on a 6 or higher, you can taste the history of the world through it. Ask any question the rock might know and the ref will answer.
+>
+> - Dice: 1d6
+> - Uses: 1
+> - Marks: 0

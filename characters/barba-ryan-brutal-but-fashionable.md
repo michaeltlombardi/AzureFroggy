@@ -28,13 +28,13 @@ None.
 
 #### Tricks
 
-##### Riposte
-
-Roll the trick dice when you are defending; deal the result as damage to attacker even if they hit you.
-
-- Dice: 1d6
-- Uses: 1
-- Marks: 0
+> ##### Riposte
+>
+> Roll the trick dice when you are defending; deal the result as damage to attacker even if they hit you.
+>
+> - Dice: 1d6
+> - Uses: 1
+> - Marks: 0
 
 ### Striking Clothes
 
@@ -44,10 +44,10 @@ Roll the trick dice when you are defending; deal the result as damage to attacke
 
 #### Tricks
 
-##### Reaction
-
-When a person or group first encounters you, roll your trick dice. The better the result, the more favorable their reaction.
-
-- Dice: 1d6
-- Uses: 1
-- Marks: 0
+> ##### Reaction
+>
+> When a person or group first encounters you, roll your trick dice. The better the result, the more favorable their reaction.
+>
+> - Dice: 1d6
+> - Uses: 1
+> - Marks: 0
