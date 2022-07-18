@@ -1,1 +1,505 @@
-{"id":"38716a69-f2bd-4ceb-b415-316d2f47c8a1","name":"Barba Ryan, Brutal but Fashionable (Pronouns)","group":"Azure Frogs","lastUpdated":1658117633,"wide":false,"pages":[{"id":"aa6ef17e-0911-4410-9e48-035ceeec8191","label":"CHARACTER","rows":[{"columns":[{"sections":[{"id":"365febde-06ef-4be1-a947-bb28bfcaf330","label":"HIT DICE","blocks":[{"id":"91a97805-1ab0-43af-9951-b378563a9d27","label":"COUNT","type":"DicePool","value":"","meta":{"commands":["1d6"],"helperText":"General measure of how experienced and tough you are."}},{"id":"7761ff2f-5c10-433b-a833-0484aed4c5cd","label":"HIT POINTS","type":"PointCounter","meta":{"isMainPointCounter":true,"helperText":"How many hit points you have remaining; Roll HD when you can rest in relative safely for a week: if the result is higher than your current HP, that's your new HP!"},"value":"4"},{"id":"5c9b45e3-1469-4fb8-a8cf-fd5564059c25","label":"MARKS","type":"PointCounter","meta":{"isMainPointCounter":false,"helperText":"Every time you roll max result for one of your HD, add a mark; so if you roll your 2d6 HD and get 4,6, you'd get one mark!<br><br>While resting, you can spend your marks (cost in parentheses) to:<br><br>- Increase the die size by one step (die size)<br>- Gain a new domain (domain count)<br>- Gain a companion slot (3x companion slot count)<br>- Add another die (combined max of your HD)<br>"},"value":"0"},{"id":"3b5121fb-d0b5-46a2-86e2-7b0bfff7eb31","label":"DOMAINLESS ACTION","type":"DicePool","value":"","meta":{"commands":["1d6"],"helperText":"Roll a d6 when the outcome is uncertain and you don't have a relevant domain."}}],"visibleOnCard":true},{"id":"ae4e3eac-bb17-4f52-a4cd-4a12112afe01","label":"POSSESSIONS","blocks":[{"id":"bb592275-11bd-4040-81e4-3728cc57f5ea","label":"SILVER ON HAND","type":"Numeric","value":"0","meta":{}},{"id":"3a7f865f-4ea1-465b-b04f-bb46ed621bfc","label":"SILVERED OWED TO (CREDITOR)","type":"Numeric","value":"0","meta":{}},{"id":"666ca7a1-a913-4dcf-b648-7d4dd7598373","label":"THINGS CARRIED","type":"Text","value":"Fancy hat, a large and ostentatious weapon, winning smile (with a gold tooth), an array of dance moves, an intimate tattoo.","meta":{}},{"id":"1aed77a6-3114-4ff7-809b-67b4f9d4a2ad","label":"THINGS STORED","type":"Text","value":"An impressive wardrobe, collection of perfume and cologne bottles.","meta":{}}]}]},{"sections":[{"id":"edb6258b-4a12-483c-9cc3-5b5062fa94b2","label":"QUICK REFERENCE","blocks":[{"id":"2e0b6486-26d7-4651-9056-264146d6fdf8","label":"Full Rules Text","type":"Link","meta":{"hasDisplayName":true},"value":"https://picaroons.netlify.app/docs/picaroons/playing/"},{"id":"d1de25bd-4b1a-4b5a-a605-fb2928e1cdbf","label":"CHARACTER CREATION","type":"Text","value":"HD starts at 1d6; roll it immediately to determine starting Hit Points. You also begin play with 6-HP Domains.","meta":{}},{"id":"c1a703db-38c7-405a-b060-263683662c48","label":"DEBT","type":"DicePool","value":"","meta":{"commands":["2d6"],"helperText":"Picaroons start out broke. You can take on debt to a patron, faction, or institution in increments of 2d6.The lower result die is the number of domains you get from your guarantor, the higher is how many d6x100 silver of debt you need to clear. Picaroons can always seek more debt.<br><br>So a result of 3, 4 would net you 3 domains but require you to take on 4d6 x 100 silver in debt!<br>"}},{"id":"414acdda-b9f4-4f07-bb5c-24140dcbae2c","label":"ACTION RESOLUTION","type":"Text","value":"When an outcome is uncertain, roll d6; on 5+ (unless otherwise stated), succeed. When an outcome is contested, all sides roll d6; results favor higher rolls. If any domains are applicable to the uncertain or contested action, roll the highest applicable domain die and take the best result.\n\nAny time a die rolls its max result (6 on d6, 8 on d8), mark it. When you have marked a die as many times as the max, you can clear the marks to increase it by one step (d6 &gt; d8).\n\nWhen in an action scene, participants declare up to two actions in order from lowest HD to highest. Where there are ties, agree who goes first or roll off. All actions are resolved simultaneously as makes sense.\n\nDistances are tracked as zones: adjacent, nearby, distant, and far. Participants can move anywhere nearby as an action or distant as two actions.\r\n\nAttacks are always contested. In melee, the highest result is the damage dealt to the participant with the lowest result. At range, if the shooter’s result is lower, they miss.\n\r\n","meta":{}},{"id":"7de3691a-995b-4f0d-adb9-ff4fbefb869a","label":"AT 0 HP","type":"Text","value":"When you drop to 0HP, choose one immediately:\n\n1. Carry On: Transfer all of your current marks to a loved one. You have died, but live on in them.\n2. Save Self: Make a test; if successful, return to 1HP but unable to participate for the rest of the scene.\n3. Use It: Sacrifice a HD to get back into it; reroll remaining HD to determine new your HP.\n4. Wait It Out: Roll HD; unless someone renders first aid in that many rounds, you die.\n\nA friend can spend an action to provide first aid, testing as normal to bring you back to 1HP. Alternatively, if rendering first aid after the combat scene ends, automatically succeed without a test.\n","meta":{}}]}]}]}]},{"id":"2a403ce8-6767-4430-afb8-426a1abe8c4a","label":"DOMAINS","rows":[{"columns":[{"sections":[{"id":"edcf6481-394d-4dc3-859d-fd27ccc31ccd","label":"Striking Weapon","blocks":[{"id":"77d01c78-7bdd-4717-a389-d782fb2065b7","label":"DOMAIN DIE (D6)","type":"DicePool","value":"","meta":{"commands":["1d6"],"helperText":"Roll whenever this domain is applicable. If you increase the die size, be sure to reset the dice and then select a d6 and your new domain die size (e.g. d6 and d8). The higher result is better!"}},{"id":"82aa5885-a435-437d-be01-435a03793654","label":"MARKS","type":"PointCounter","meta":{"isMainPointCounter":false,"helperText":"Every time you roll max result for your domain die add a mark; so if you roll your d6 domain die and get a 6, you'd get a mark!<br><br>While resting, you can spend your marks (cost in parentheses) to:<br><br>- Increase the die size by one step (die size)<br>- Gain a trick slot (3x trick slot count)<br><br>"},"value":"0"},{"id":"ebbd25c0-0c69-4514-b37b-a3b6706b1969","label":"AVAILABLE TRICKS","type":"SlotTracker","meta":{"helperText":"How many tricks you can have for this domain; always at least one."},"value":[{"label":"","checked":false}]},{"id":"9d4c0325-d70e-446a-9daf-b4e954595797","label":"TRICKS","type":"Text","value":"- Riposte\n","meta":{"helperText":"List your tricks here for easier remembering."}}]}]},{"sections":[{"id":"11118e1d-543f-46ef-b572-71ac761175d9","label":"Striking Clothes","blocks":[{"id":"4d73d3e1-0d41-4573-bdca-be4d236a390c","label":"DOMAIN DIE (D6)","type":"DicePool","value":"","meta":{"commands":["1d6"],"helperText":"Roll whenever this domain is applicable. If you increase the die size, be sure to reset the dice and then select a d6 and your new domain die size (e.g. d6 and d8). The higher result is better!"}},{"id":"37ce19da-061d-4e01-97be-9e84ba4e597e","label":"MARKS","type":"PointCounter","meta":{"isMainPointCounter":false,"helperText":"Every time you roll max result for your domain die add a mark; so if you roll your d6 domain die and get a 6, you'd get a mark!<br><br>While resting, you can spend your marks (cost in parentheses) to:<br><br>- Increase the die size by one step (die size)<br>- Gain a trick slot (3x trick slot count)<br><br>"},"value":"0"},{"id":"98ad098e-667d-4c89-a9c9-81b51a811baa","label":"AVAILABLE TRICKS","type":"SlotTracker","meta":{"helperText":"How many tricks you can have for this domain; always at least one."},"value":[{"label":"","checked":false}]},{"id":"4b7c2076-03d3-4232-8c81-61602f9ff679","label":"TRICKS","type":"Text","value":"- Reaction\n","meta":{"helperText":"List your tricks here for easier remembering."}}]}]}]}]},{"id":"f7770b67-309b-497a-8ee6-9acd52fd1a91","label":"TRICKS","rows":[{"columns":[{"sections":[{"id":"0b901194-56f0-41a7-b5b5-afc0cb5b98d0","label":"Riposte (Striking Weapon)","blocks":[{"id":"af6eaedc-5813-4478-9386-4d20327858e1","label":"TRICK DICE","type":"DicePool","value":"","meta":{"commands":["1d6"],"helperText":""}},{"id":"0e4945e5-e241-4320-8817-374f1328bba7","label":"TRIGGER &AMP; EFFECT","type":"Text","value":"Roll the trick dice when you are defending; deal the result as damage to attacker even if they hit you.\n","meta":{}},{"id":"10196032-c96a-45e0-bf7d-9336757ad478","label":"USES","type":"SlotTracker","meta":{"helperText":"By default, you can use your tricks once per scene. Spend marks to increase!"},"value":[{"label":"","checked":false}]},{"id":"e1780705-ccbe-4cbd-9ac2-a2f5f13d69b0","label":"MARKS","type":"PointCounter","meta":{"isMainPointCounter":false,"helperText":"Every time you roll max result for your trick dice add a mark; so if you roll your 2d6 trick dice and get a 4 and 6, you'd get a mark!<br><br>While resting, you can spend your marks(cost in parentheses) to:<br><br>- Increase the die size by one step (die size)<br>- Add another die (combined max)<br>- Gain another user per scene<br><br>"},"value":"0"}]}]},{"sections":[{"id":"06b94e27-c864-488b-b1c9-6ce2dd7d3d0b","label":"Reaction (Striking Clothes)","blocks":[{"id":"aab698d6-e746-4da7-83b5-33c219d25cb2","label":"TRICK DICE","type":"DicePool","value":"","meta":{"commands":["1d6"],"helperText":""}},{"id":"65bbbf2c-10f6-4c2b-80a6-4b53e333a244","label":"TRIGGER &AMP; EFFECT","type":"Text","value":"When a person or group first encounters you, roll your trick dice. The better the result, the more favorable their reaction.\n","meta":{}},{"id":"2631f780-5fd6-43bb-b75c-7ce9171c8d00","label":"USES","type":"SlotTracker","meta":{"helperText":"By default, you can use your tricks once per scene. Spend marks to increase!"},"value":[{"label":"","checked":false}]},{"id":"2a6e6fec-1830-4851-b998-ff746563cb2f","label":"MARKS","type":"PointCounter","meta":{"isMainPointCounter":false,"helperText":"Every time you roll max result for your trick dice add a mark; so if you roll your 2d6 trick dice and get a 4 and 6, you'd get a mark!<br><br>While resting, you can spend your marks(cost in parentheses) to:<br><br>- Increase the die size by one step (die size)<br>- Add another die (combined max)<br>- Gain another user per scene<br><br>"},"value":"0"}]}]}]}]},{"id":"a3719451-c5c4-41a1-bea5-408977454792","label":"COMPANIONS &AMP; HIRELINGS","rows":[{"columns":[{"sections":[{"id":"44b2abde-b25e-4eda-bb07-a2d33e4adecb","label":"COMPANIONS","blocks":[{"id":"03da04bc-aaf0-45f6-bf01-56efa4565c7b","label":"COMPANION SLOTS","type":"SlotTracker","meta":{"helperText":"How many companions will follow you willingly and without remuneration. Default zero, spend HD marks to gain!"},"value":[]},{"id":"b8b19cc6-9221-46da-a829-68280bc35472","label":"LIST OF COMPANIONS","type":"Text","value":"","meta":{}},{"id":"6be57c93-edc3-4119-9af6-7f4066afa0d2","label":"RULES","type":"Text","value":"You can have as many companions as you have companion slots, if you can convince them to follow you. Companions are picaroons in their own right.\n\nHirelings are temporary followers who expect to be remunerated at least weekly and daily if asked to face danger (costs in silver).\n\nCost modifiers:\n\n* +1s per HD and die step\n* +1s per Domain die step\n* +1s per Trick die, die step, and extra use\n\n","meta":{}}]}]},{"sections":[{"id":"b77d21e8-292e-4381-8f16-fe30f3a429c0","label":"HIRELING: NAME (PRONOUNS)","blocks":[{"id":"d43f8ff6-265d-496d-a978-e9f42e3aab19","label":"HIT DICE","type":"DicePool","value":"","meta":{"commands":["1d6"]}},{"id":"17fc79e9-071b-4076-8329-2953461055ff","label":"HIT POINTS","type":"PointCounter","meta":{"isMainPointCounter":false,"helperText":"How many hit points they have remaining; Roll HD when they can rest in relative safely for a week: if the result is higher than their current HP, that's their new HP!"},"value":"0"},{"id":"d31b4df1-03ce-4295-9be3-4979c1aa0cab","label":"DOMAIN: NAME","type":"DicePool","value":"","meta":{"commands":["1d6","1d6"]}},{"id":"026f3247-6994-4081-9d9f-c8b665c25fd6","label":"TRICK: NAME","type":"DicePool","value":"","meta":{"commands":["1d6"],"helperText":"Trigger and Effect text."}},{"id":"b0fbcb57-691d-4eb5-8134-c87ebe096165","label":"EXPECTED PAY IN SILVER","type":"Numeric","value":"","meta":{"helperText":"Remunerate at least weekly; remunerate daily if asked to face danger."}}]}]}]}]}],"version":6,"fariType":"character"}
+{
+    "id": "38716a69-f2bd-4ceb-b415-316d2f47c8a1",
+    "name": "Barba Ryan, Brutal but Fashionable (Pronouns)",
+    "group": "Azure Frogs",
+    "lastUpdated": 1658117633,
+    "wide": false,
+    "pages": [
+        {
+            "id": "aa6ef17e-0911-4410-9e48-035ceeec8191",
+            "label": "CHARACTER",
+            "rows": [
+                {
+                    "columns": [
+                        {
+                            "sections": [
+                                {
+                                    "id": "365febde-06ef-4be1-a947-bb28bfcaf330",
+                                    "label": "HIT DICE",
+                                    "blocks": [
+                                        {
+                                            "id": "91a97805-1ab0-43af-9951-b378563a9d27",
+                                            "label": "COUNT",
+                                            "type": "DicePool",
+                                            "value": "",
+                                            "meta": {
+                                                "commands": [
+                                                    "1d6"
+                                                ],
+                                                "helperText": "General measure of how experienced and tough you are."
+                                            }
+                                        },
+                                        {
+                                            "id": "7761ff2f-5c10-433b-a833-0484aed4c5cd",
+                                            "label": "HIT POINTS",
+                                            "type": "PointCounter",
+                                            "meta": {
+                                                "isMainPointCounter": true,
+                                                "helperText": "How many hit points you have remaining; Roll HD when you can rest in relative safely for a week: if the result is higher than your current HP, that's your new HP!"
+                                            },
+                                            "value": "4"
+                                        },
+                                        {
+                                            "id": "5c9b45e3-1469-4fb8-a8cf-fd5564059c25",
+                                            "label": "MARKS",
+                                            "type": "PointCounter",
+                                            "meta": {
+                                                "isMainPointCounter": false,
+                                                "helperText": "Every time you roll max result for one of your HD, add a mark; so if you roll your 2d6 HD and get 4,6, you'd get one mark!<br><br>While resting, you can spend your marks (cost in parentheses) to:<br><br>- Increase the die size by one step (die size)<br>- Gain a new domain (domain count)<br>- Gain a companion slot (3x companion slot count)<br>- Add another die (combined max of your HD)<br>"
+                                            },
+                                            "value": "0"
+                                        },
+                                        {
+                                            "id": "3b5121fb-d0b5-46a2-86e2-7b0bfff7eb31",
+                                            "label": "DOMAINLESS ACTION",
+                                            "type": "DicePool",
+                                            "value": "",
+                                            "meta": {
+                                                "commands": [
+                                                    "1d6"
+                                                ],
+                                                "helperText": "Roll a d6 when the outcome is uncertain and you don't have a relevant domain."
+                                            }
+                                        }
+                                    ],
+                                    "visibleOnCard": true
+                                },
+                                {
+                                    "id": "ae4e3eac-bb17-4f52-a4cd-4a12112afe01",
+                                    "label": "POSSESSIONS",
+                                    "blocks": [
+                                        {
+                                            "id": "bb592275-11bd-4040-81e4-3728cc57f5ea",
+                                            "label": "SILVER ON HAND",
+                                            "type": "Numeric",
+                                            "value": "0",
+                                            "meta": {}
+                                        },
+                                        {
+                                            "id": "3a7f865f-4ea1-465b-b04f-bb46ed621bfc",
+                                            "label": "SILVERED OWED TO (CREDITOR)",
+                                            "type": "Numeric",
+                                            "value": "0",
+                                            "meta": {}
+                                        },
+                                        {
+                                            "id": "666ca7a1-a913-4dcf-b648-7d4dd7598373",
+                                            "label": "THINGS CARRIED",
+                                            "type": "Text",
+                                            "value": "Fancy hat, a large and ostentatious weapon, winning smile (with a gold tooth), an array of dance moves, an intimate tattoo.",
+                                            "meta": {}
+                                        },
+                                        {
+                                            "id": "1aed77a6-3114-4ff7-809b-67b4f9d4a2ad",
+                                            "label": "THINGS STORED",
+                                            "type": "Text",
+                                            "value": "An impressive wardrobe, collection of perfume and cologne bottles.",
+                                            "meta": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "sections": [
+                                {
+                                    "id": "edb6258b-4a12-483c-9cc3-5b5062fa94b2",
+                                    "label": "QUICK REFERENCE",
+                                    "blocks": [
+                                        {
+                                            "id": "2e0b6486-26d7-4651-9056-264146d6fdf8",
+                                            "label": "Full Rules Text",
+                                            "type": "Link",
+                                            "meta": {
+                                                "hasDisplayName": true
+                                            },
+                                            "value": "https://picaroons.netlify.app/docs/picaroons/playing/"
+                                        },
+                                        {
+                                            "id": "d1de25bd-4b1a-4b5a-a605-fb2928e1cdbf",
+                                            "label": "CHARACTER CREATION",
+                                            "type": "Text",
+                                            "value": "HD starts at 1d6; roll it immediately to determine starting Hit Points. You also begin play with 6-HP Domains.",
+                                            "meta": {}
+                                        },
+                                        {
+                                            "id": "c1a703db-38c7-405a-b060-263683662c48",
+                                            "label": "DEBT",
+                                            "type": "DicePool",
+                                            "value": "",
+                                            "meta": {
+                                                "commands": [
+                                                    "2d6"
+                                                ],
+                                                "helperText": "Picaroons start out broke. You can take on debt to a patron, faction, or institution in increments of 2d6.The lower result die is the number of domains you get from your guarantor, the higher is how many d6x100 silver of debt you need to clear. Picaroons can always seek more debt.<br><br>So a result of 3, 4 would net you 3 domains but require you to take on 4d6 x 100 silver in debt!<br>"
+                                            }
+                                        },
+                                        {
+                                            "id": "414acdda-b9f4-4f07-bb5c-24140dcbae2c",
+                                            "label": "ACTION RESOLUTION",
+                                            "type": "Text",
+                                            "value": "When an outcome is uncertain, roll d6; on 5+ (unless otherwise stated), succeed. When an outcome is contested, all sides roll d6; results favor higher rolls. If any domains are applicable to the uncertain or contested action, roll the highest applicable domain die and take the best result.\n\nAny time a die rolls its max result (6 on d6, 8 on d8), mark it. When you have marked a die as many times as the max, you can clear the marks to increase it by one step (d6 &gt; d8).\n\nWhen in an action scene, participants declare up to two actions in order from lowest HD to highest. Where there are ties, agree who goes first or roll off. All actions are resolved simultaneously as makes sense.\n\nDistances are tracked as zones: adjacent, nearby, distant, and far. Participants can move anywhere nearby as an action or distant as two actions.\r\n\nAttacks are always contested. In melee, the highest result is the damage dealt to the participant with the lowest result. At range, if the shooter’s result is lower, they miss.\n\r\n",
+                                            "meta": {}
+                                        },
+                                        {
+                                            "id": "7de3691a-995b-4f0d-adb9-ff4fbefb869a",
+                                            "label": "AT 0 HP",
+                                            "type": "Text",
+                                            "value": "When you drop to 0HP, choose one immediately:\n\n1. Carry On: Transfer all of your current marks to a loved one. You have died, but live on in them.\n2. Save Self: Make a test; if successful, return to 1HP but unable to participate for the rest of the scene.\n3. Use It: Sacrifice a HD to get back into it; reroll remaining HD to determine new your HP.\n4. Wait It Out: Roll HD; unless someone renders first aid in that many rounds, you die.\n\nA friend can spend an action to provide first aid, testing as normal to bring you back to 1HP. Alternatively, if rendering first aid after the combat scene ends, automatically succeed without a test.\n",
+                                            "meta": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "2a403ce8-6767-4430-afb8-426a1abe8c4a",
+            "label": "DOMAINS",
+            "rows": [
+                {
+                    "columns": [
+                        {
+                            "sections": [
+                                {
+                                    "id": "edcf6481-394d-4dc3-859d-fd27ccc31ccd",
+                                    "label": "Striking Weapon",
+                                    "blocks": [
+                                        {
+                                            "id": "77d01c78-7bdd-4717-a389-d782fb2065b7",
+                                            "label": "DOMAIN DIE (D6)",
+                                            "type": "DicePool",
+                                            "value": "",
+                                            "meta": {
+                                                "commands": [
+                                                    "1d6"
+                                                ],
+                                                "helperText": "Roll whenever this domain is applicable. If you increase the die size, be sure to reset the dice and then select a d6 and your new domain die size (e.g. d6 and d8). The higher result is better!"
+                                            }
+                                        },
+                                        {
+                                            "id": "82aa5885-a435-437d-be01-435a03793654",
+                                            "label": "MARKS",
+                                            "type": "PointCounter",
+                                            "meta": {
+                                                "isMainPointCounter": false,
+                                                "helperText": "Every time you roll max result for your domain die add a mark; so if you roll your d6 domain die and get a 6, you'd get a mark!<br><br>While resting, you can spend your marks (cost in parentheses) to:<br><br>- Increase the die size by one step (die size)<br>- Gain a trick slot (3x trick slot count)<br><br>"
+                                            },
+                                            "value": "0"
+                                        },
+                                        {
+                                            "id": "ebbd25c0-0c69-4514-b37b-a3b6706b1969",
+                                            "label": "AVAILABLE TRICKS",
+                                            "type": "SlotTracker",
+                                            "meta": {
+                                                "helperText": "How many tricks you can have for this domain; always at least one."
+                                            },
+                                            "value": [
+                                                {
+                                                    "label": "",
+                                                    "checked": false
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "9d4c0325-d70e-446a-9daf-b4e954595797",
+                                            "label": "TRICKS",
+                                            "type": "Text",
+                                            "value": "- Riposte\n",
+                                            "meta": {
+                                                "helperText": "List your tricks here for easier remembering."
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "sections": [
+                                {
+                                    "id": "11118e1d-543f-46ef-b572-71ac761175d9",
+                                    "label": "Striking Clothes",
+                                    "blocks": [
+                                        {
+                                            "id": "4d73d3e1-0d41-4573-bdca-be4d236a390c",
+                                            "label": "DOMAIN DIE (D6)",
+                                            "type": "DicePool",
+                                            "value": "",
+                                            "meta": {
+                                                "commands": [
+                                                    "1d6"
+                                                ],
+                                                "helperText": "Roll whenever this domain is applicable. If you increase the die size, be sure to reset the dice and then select a d6 and your new domain die size (e.g. d6 and d8). The higher result is better!"
+                                            }
+                                        },
+                                        {
+                                            "id": "37ce19da-061d-4e01-97be-9e84ba4e597e",
+                                            "label": "MARKS",
+                                            "type": "PointCounter",
+                                            "meta": {
+                                                "isMainPointCounter": false,
+                                                "helperText": "Every time you roll max result for your domain die add a mark; so if you roll your d6 domain die and get a 6, you'd get a mark!<br><br>While resting, you can spend your marks (cost in parentheses) to:<br><br>- Increase the die size by one step (die size)<br>- Gain a trick slot (3x trick slot count)<br><br>"
+                                            },
+                                            "value": "0"
+                                        },
+                                        {
+                                            "id": "98ad098e-667d-4c89-a9c9-81b51a811baa",
+                                            "label": "AVAILABLE TRICKS",
+                                            "type": "SlotTracker",
+                                            "meta": {
+                                                "helperText": "How many tricks you can have for this domain; always at least one."
+                                            },
+                                            "value": [
+                                                {
+                                                    "label": "",
+                                                    "checked": false
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "4b7c2076-03d3-4232-8c81-61602f9ff679",
+                                            "label": "TRICKS",
+                                            "type": "Text",
+                                            "value": "- Reaction\n",
+                                            "meta": {
+                                                "helperText": "List your tricks here for easier remembering."
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "f7770b67-309b-497a-8ee6-9acd52fd1a91",
+            "label": "TRICKS",
+            "rows": [
+                {
+                    "columns": [
+                        {
+                            "sections": [
+                                {
+                                    "id": "0b901194-56f0-41a7-b5b5-afc0cb5b98d0",
+                                    "label": "Riposte (Striking Weapon)",
+                                    "blocks": [
+                                        {
+                                            "id": "af6eaedc-5813-4478-9386-4d20327858e1",
+                                            "label": "TRICK DICE",
+                                            "type": "DicePool",
+                                            "value": "",
+                                            "meta": {
+                                                "commands": [
+                                                    "1d6"
+                                                ],
+                                                "helperText": ""
+                                            }
+                                        },
+                                        {
+                                            "id": "0e4945e5-e241-4320-8817-374f1328bba7",
+                                            "label": "TRIGGER &AMP; EFFECT",
+                                            "type": "Text",
+                                            "value": "Roll the trick dice when you are defending; deal the result as damage to attacker even if they hit you.\n",
+                                            "meta": {}
+                                        },
+                                        {
+                                            "id": "10196032-c96a-45e0-bf7d-9336757ad478",
+                                            "label": "USES",
+                                            "type": "SlotTracker",
+                                            "meta": {
+                                                "helperText": "By default, you can use your tricks once per scene. Spend marks to increase!"
+                                            },
+                                            "value": [
+                                                {
+                                                    "label": "",
+                                                    "checked": false
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "e1780705-ccbe-4cbd-9ac2-a2f5f13d69b0",
+                                            "label": "MARKS",
+                                            "type": "PointCounter",
+                                            "meta": {
+                                                "isMainPointCounter": false,
+                                                "helperText": "Every time you roll max result for your trick dice add a mark; so if you roll your 2d6 trick dice and get a 4 and 6, you'd get a mark!<br><br>While resting, you can spend your marks(cost in parentheses) to:<br><br>- Increase the die size by one step (die size)<br>- Add another die (combined max)<br>- Gain another user per scene<br><br>"
+                                            },
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "sections": [
+                                {
+                                    "id": "06b94e27-c864-488b-b1c9-6ce2dd7d3d0b",
+                                    "label": "Reaction (Striking Clothes)",
+                                    "blocks": [
+                                        {
+                                            "id": "aab698d6-e746-4da7-83b5-33c219d25cb2",
+                                            "label": "TRICK DICE",
+                                            "type": "DicePool",
+                                            "value": "",
+                                            "meta": {
+                                                "commands": [
+                                                    "1d6"
+                                                ],
+                                                "helperText": ""
+                                            }
+                                        },
+                                        {
+                                            "id": "65bbbf2c-10f6-4c2b-80a6-4b53e333a244",
+                                            "label": "TRIGGER &AMP; EFFECT",
+                                            "type": "Text",
+                                            "value": "When a person or group first encounters you, roll your trick dice. The better the result, the more favorable their reaction.\n",
+                                            "meta": {}
+                                        },
+                                        {
+                                            "id": "2631f780-5fd6-43bb-b75c-7ce9171c8d00",
+                                            "label": "USES",
+                                            "type": "SlotTracker",
+                                            "meta": {
+                                                "helperText": "By default, you can use your tricks once per scene. Spend marks to increase!"
+                                            },
+                                            "value": [
+                                                {
+                                                    "label": "",
+                                                    "checked": false
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "2a6e6fec-1830-4851-b998-ff746563cb2f",
+                                            "label": "MARKS",
+                                            "type": "PointCounter",
+                                            "meta": {
+                                                "isMainPointCounter": false,
+                                                "helperText": "Every time you roll max result for your trick dice add a mark; so if you roll your 2d6 trick dice and get a 4 and 6, you'd get a mark!<br><br>While resting, you can spend your marks(cost in parentheses) to:<br><br>- Increase the die size by one step (die size)<br>- Add another die (combined max)<br>- Gain another user per scene<br><br>"
+                                            },
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "a3719451-c5c4-41a1-bea5-408977454792",
+            "label": "COMPANIONS &AMP; HIRELINGS",
+            "rows": [
+                {
+                    "columns": [
+                        {
+                            "sections": [
+                                {
+                                    "id": "44b2abde-b25e-4eda-bb07-a2d33e4adecb",
+                                    "label": "COMPANIONS",
+                                    "blocks": [
+                                        {
+                                            "id": "03da04bc-aaf0-45f6-bf01-56efa4565c7b",
+                                            "label": "COMPANION SLOTS",
+                                            "type": "SlotTracker",
+                                            "meta": {
+                                                "helperText": "How many companions will follow you willingly and without remuneration. Default zero, spend HD marks to gain!"
+                                            },
+                                            "value": []
+                                        },
+                                        {
+                                            "id": "b8b19cc6-9221-46da-a829-68280bc35472",
+                                            "label": "LIST OF COMPANIONS",
+                                            "type": "Text",
+                                            "value": "",
+                                            "meta": {}
+                                        },
+                                        {
+                                            "id": "6be57c93-edc3-4119-9af6-7f4066afa0d2",
+                                            "label": "RULES",
+                                            "type": "Text",
+                                            "value": "You can have as many companions as you have companion slots, if you can convince them to follow you. Companions are picaroons in their own right.\n\nHirelings are temporary followers who expect to be remunerated at least weekly and daily if asked to face danger (costs in silver).\n\nCost modifiers:\n\n* +1s per HD and die step\n* +1s per Domain die step\n* +1s per Trick die, die step, and extra use\n\n",
+                                            "meta": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "sections": [
+                                {
+                                    "id": "b77d21e8-292e-4381-8f16-fe30f3a429c0",
+                                    "label": "HIRELING: NAME (PRONOUNS)",
+                                    "blocks": [
+                                        {
+                                            "id": "d43f8ff6-265d-496d-a978-e9f42e3aab19",
+                                            "label": "HIT DICE",
+                                            "type": "DicePool",
+                                            "value": "",
+                                            "meta": {
+                                                "commands": [
+                                                    "1d6"
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "id": "17fc79e9-071b-4076-8329-2953461055ff",
+                                            "label": "HIT POINTS",
+                                            "type": "PointCounter",
+                                            "meta": {
+                                                "isMainPointCounter": false,
+                                                "helperText": "How many hit points they have remaining; Roll HD when they can rest in relative safely for a week: if the result is higher than their current HP, that's their new HP!"
+                                            },
+                                            "value": "0"
+                                        },
+                                        {
+                                            "id": "d31b4df1-03ce-4295-9be3-4979c1aa0cab",
+                                            "label": "DOMAIN: NAME",
+                                            "type": "DicePool",
+                                            "value": "",
+                                            "meta": {
+                                                "commands": [
+                                                    "1d6",
+                                                    "1d6"
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "id": "026f3247-6994-4081-9d9f-c8b665c25fd6",
+                                            "label": "TRICK: NAME",
+                                            "type": "DicePool",
+                                            "value": "",
+                                            "meta": {
+                                                "commands": [
+                                                    "1d6"
+                                                ],
+                                                "helperText": "Trigger and Effect text."
+                                            }
+                                        },
+                                        {
+                                            "id": "b0fbcb57-691d-4eb5-8134-c87ebe096165",
+                                            "label": "EXPECTED PAY IN SILVER",
+                                            "type": "Numeric",
+                                            "value": "",
+                                            "meta": {
+                                                "helperText": "Remunerate at least weekly; remunerate daily if asked to face danger."
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "version": 6,
+    "fariType": "character"
+}

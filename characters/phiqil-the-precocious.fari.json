@@ -1,1 +1,717 @@
-{"id":"54928692-4a0e-4155-8e51-0e0399a8104b","name":"Phiqil the Precocious (Pronouns)","group":"Azure Frogs","lastUpdated":1657854954,"wide":false,"pages":[{"id":"89af02ee-6ba7-4c6a-9a1a-5e772f637911","label":"CHARACTER","rows":[{"columns":[{"sections":[{"id":"a6bf602f-d220-411d-8469-d4e21d63c338","label":"HIT DICE","blocks":[{"id":"8869f52a-5608-46de-b5b3-36e6cba6327c","label":"COUNT","type":"DicePool","value":"","meta":{"commands":["1d6"],"helperText":"General measure of how experienced and tough you are."}},{"id":"2271b273-cb3d-4601-b9ac-c1d0b14630d2","label":"HIT POINTS","type":"PointCounter","meta":{"isMainPointCounter":true,"helperText":"How many hit points you have remaining; Roll HD when you can rest in relative safely for a week: if the result is higher than your current HP, that's your new HP!"},"value":"2"},{"id":"e0a52ecf-73cb-48e8-83e4-cfd6918286ff","label":"MARKS","type":"PointCounter","meta":{"isMainPointCounter":false,"helperText":"Every time you roll max result for one of your HD, add a mark; so if you roll your 2d6 HD and get 4,6, you'd get one mark!<br><br>While resting, you can spend your marks (cost in parentheses) to:<br><br>- Increase the die size by one step (die size)<br>- Gain a new domain (domain count)<br>- Gain a companion slot (3x companion slot count)<br>- Add another die (combined max of your HD)<br>"},"value":"0"},{"id":"a5c51930-bd95-4db2-bc90-42f94f4a1b40","label":"DOMAINLESS ACTION","type":"DicePool","value":"","meta":{"commands":["1d6"],"helperText":"Roll a d6 when the outcome is uncertain and you don't have a relevant domain."}}],"visibleOnCard":true},{"id":"87aac620-6a8a-4bdd-bf2f-09cd46f46f8c","label":"POSSESSIONS","blocks":[{"id":"32e604c4-9ef5-4a3f-8cec-a06a37636dbc","label":"SILVER ON HAND","type":"Numeric","value":"0","meta":{}},{"id":"910d1a64-0252-4917-8d99-d11cf34c1939","label":"SILVERED OWED TO (CREDITOR)","type":"Numeric","value":"0","meta":{}},{"id":"7c77f55f-2384-4d69-9371-41a3535068de","label":"THINGS CARRIED","type":"Text","value":"A great book, a trashy book, a pot of ink, 3 quills, 6 blank scrolls, a library card, and a sack of smushed strawberry shortcakes. ","meta":{}},{"id":"ba9ea223-d4dd-4ea1-987f-c69dd491de98","label":"THINGS STORED","type":"Text","value":"So many books. Too many books.","meta":{}}]}]},{"sections":[{"id":"94808117-3be8-4963-b2a0-4317ba22d003","label":"QUICK REFERENCE","blocks":[{"id":"5cbeb16d-3916-41b8-b2e5-390633687b3d","label":"Full Rules Text","type":"Link","meta":{"hasDisplayName":true},"value":"https://picaroons.netlify.app/docs/picaroons/playing/"},{"id":"dcbf9887-4192-4e86-9bee-76f1a299d93c","label":"CHARACTER CREATION","type":"Text","value":"HD starts at 1d6; roll it immediately to determine starting Hit Points. You also begin play with 6-HP Domains.","meta":{}},{"id":"611e3411-a2e9-4803-90ef-b8fc964fc0a4","label":"DEBT","type":"DicePool","value":"","meta":{"commands":["2d6"],"helperText":"Picaroons start out broke. You can take on debt to a patron, faction, or institution in increments of 2d6.The lower result die is the number of domains you get from your guarantor, the higher is how many d6x100 silver of debt you need to clear. Picaroons can always seek more debt.<br><br>So a result of 3, 4 would net you 3 domains but require you to take on 4d6 x 100 silver in debt!<br>"}},{"id":"651cc330-3e3f-49ff-8e4f-df9d4a7361d1","label":"ACTION RESOLUTION","type":"Text","value":"When an outcome is uncertain, roll d6; on 5+ (unless otherwise stated), succeed. When an outcome is contested, all sides roll d6; results favor higher rolls. If any domains are applicable to the uncertain or contested action, roll the highest applicable domain die and take the best result.\n\nAny time a die rolls its max result (6 on d6, 8 on d8), mark it. When you have marked a die as many times as the max, you can clear the marks to increase it by one step (d6 &gt; d8).\n\nWhen in an action scene, participants declare up to two actions in order from lowest HD to highest. Where there are ties, agree who goes first or roll off. All actions are resolved simultaneously as makes sense.\n\nDistances are tracked as zones: adjacent, nearby, distant, and far. Participants can move anywhere nearby as an action or distant as two actions.\r\n\nAttacks are always contested. In melee, the highest result is the damage dealt to the participant with the lowest result. At range, if the shooter’s result is lower, they miss.\n\r\n","meta":{}},{"id":"31e2c2f9-fc2e-4bd0-b7a7-8d82c4e00994","label":"AT 0 HP","type":"Text","value":"When you drop to 0HP, choose one immediately:\n\n1. Carry On: Transfer all of your current marks to a loved one. You have died, but live on in them.\n2. Save Self: Make a test; if successful, return to 1HP but unable to participate for the rest of the scene.\n3. Use It: Sacrifice a HD to get back into it; reroll remaining HD to determine new your HP.\n4. Wait It Out: Roll HD; unless someone renders first aid in that many rounds, you die.\n\nA friend can spend an action to provide first aid, testing as normal to bring you back to 1HP. Alternatively, if rendering first aid after the combat scene ends, automatically succeed without a test.\n","meta":{}}]}]}]}]},{"id":"9d1d4c16-1899-4f9e-9228-58f9bb73849d","label":"DOMAINS","rows":[{"columns":[{"sections":[{"id":"4b49cbe3-c477-412a-b68b-0ad4b7028262","label":"Bibliomancy","blocks":[{"id":"f4bf27fe-fb3e-4926-883a-67f3568f68c8","label":"DOMAIN DIE (D6)","type":"DicePool","value":"","meta":{"commands":["1d6"],"helperText":"Roll whenever this domain is applicable. If you increase the die size, be sure to reset the dice and then select a d6 and your new domain die size (e.g. d6 and d8). The higher result is better!"}},{"id":"eee4be5d-c7e0-45f8-8a0f-7ce527c7ac7c","label":"MARKS","type":"PointCounter","meta":{"isMainPointCounter":false,"helperText":"Every time you roll max result for your domain die add a mark; so if you roll your d6 domain die and get a 6, you'd get a mark!<br><br>While resting, you can spend your marks (cost in parentheses) to:<br><br>- Increase the die size by one step (die size)<br>- Gain a trick slot (3x trick slot count)<br><br>"},"value":"0"},{"id":"980ed4d5-4a45-4d74-9a05-9cc6ae83b3a7","label":"AVAILABLE TRICKS","type":"SlotTracker","meta":{"helperText":"How many tricks you can have for this domain; always at least one."},"value":[{"label":"","checked":false}]},{"id":"f9eee397-7bcf-46c2-a753-b00adff45ef5","label":"TRICKS","type":"Text","value":"- Find An Interesting Book\n","meta":{"helperText":"List your tricks here for easier remembering."}}]}]},{"sections":[{"id":"83fd986c-a056-419a-b061-8575f811cb6a","label":"Hydromancy","blocks":[{"id":"a9c602d4-62d2-4716-a519-573bcc485a75","label":"DOMAIN DIE (D6)","type":"DicePool","value":"","meta":{"commands":["1d6"],"helperText":"Roll whenever this domain is applicable. If you increase the die size, be sure to reset the dice and then select a d6 and your new domain die size (e.g. d6 and d8). The higher result is better!"}},{"id":"02127aeb-64da-450e-8b48-ce742e74985a","label":"MARKS","type":"PointCounter","meta":{"isMainPointCounter":false,"helperText":"Every time you roll max result for your domain die add a mark; so if you roll your d6 domain die and get a 6, you'd get a mark!<br><br>While resting, you can spend your marks (cost in parentheses) to:<br><br>- Increase the die size by one step (die size)<br>- Gain a trick slot (3x trick slot count)<br><br>"},"value":"0"},{"id":"3770d71f-dae7-4495-9055-9ef50f203c71","label":"AVAILABLE TRICKS","type":"SlotTracker","meta":{"helperText":"How many tricks you can have for this domain; always at least one."},"value":[{"label":"","checked":false}]},{"id":"955e2deb-0b01-40ae-9e8b-bd482764e50f","label":"TRICKS","type":"Text","value":"- Humidity Manipulation\n","meta":{"helperText":"List your tricks here for easier remembering."}}]}]}]},{"columns":[{"sections":[{"id":"1da0fb97-205e-41b5-87c4-658314821d13","label":"Arithmancy","blocks":[{"id":"1d5a822c-dde8-48de-8a85-45f1cfccf999","label":"DOMAIN DIE (D6)","type":"DicePool","value":"","meta":{"commands":["1d6"],"helperText":"Roll whenever this domain is applicable. If you increase the die size, be sure to reset the dice and then select a d6 and your new domain die size (e.g. d6 and d8). The higher result is better!"}},{"id":"f0846d38-6e2f-4719-a38c-838314ed918d","label":"MARKS","type":"PointCounter","meta":{"isMainPointCounter":false,"helperText":"Every time you roll max result for your domain die add a mark; so if you roll your d6 domain die and get a 6, you'd get a mark!<br><br>While resting, you can spend your marks (cost in parentheses) to:<br><br>- Increase the die size by one step (die size)<br>- Gain a trick slot (3x trick slot count)<br><br>"},"value":"0"},{"id":"3244183e-2773-46fd-b019-8a56081b15dd","label":"AVAILABLE TRICKS","type":"SlotTracker","meta":{"helperText":"How many tricks you can have for this domain; always at least one."},"value":[{"label":"","checked":false}]},{"id":"e0267b3b-f7e6-4690-97e3-cb910317cba8","label":"TRICKS","type":"Text","value":"- Instant Calculation\n","meta":{"helperText":"List your tricks here for easier remembering."}}]}]},{"sections":[{"id":"89c81068-e8ff-457a-81cb-0d651b97cdf1","label":"Geomancy","blocks":[{"id":"87441098-55f8-4276-b0e9-cd8ed0621104","label":"DOMAIN DIE (D6)","type":"DicePool","value":"","meta":{"commands":["1d6"],"helperText":"Roll whenever this domain is applicable. If you increase the die size, be sure to reset the dice and then select a d6 and your new domain die size (e.g. d6 and d8). The higher result is better!"}},{"id":"e8f93857-e8d6-454b-a5ff-3d1dee4f3939","label":"MARKS","type":"PointCounter","meta":{"isMainPointCounter":false,"helperText":"Every time you roll max result for your domain die add a mark; so if you roll your d6 domain die and get a 6, you'd get a mark!<br><br>While resting, you can spend your marks (cost in parentheses) to:<br><br>- Increase the die size by one step (die size)<br>- Gain a trick slot (3x trick slot count)<br><br>"},"value":"0"},{"id":"b375d8b9-4ecb-4ea4-a9d4-3ff8c523eedb","label":"AVAILABLE TRICKS","type":"SlotTracker","meta":{"helperText":"How many tricks you can have for this domain; always at least one."},"value":[{"label":"","checked":false}]},{"id":"59c06b1b-8b12-486e-8bcb-db741d700823","label":"TRICKS","type":"Text","value":"- Lapidarian Tongue\n","meta":{"helperText":"List your tricks here for easier remembering."}}]}]}]}]},{"id":"a31ad513-4a92-423f-aada-b2ce23272a3b","label":"TRICKS","rows":[{"columns":[{"sections":[{"id":"dd1ea283-eb20-4ad7-bc92-b652c84d46d4","label":"Discovery (Bibliomancy)","blocks":[{"id":"2e17540e-07e3-4d3d-9832-7639526b786a","label":"TRICK DICE","type":"DicePool","value":"","meta":{"commands":["1d6"],"helperText":""}},{"id":"ae8d360f-940f-4559-a7a3-be0a484382af","label":"TRIGGER &AMP; EFFECT","type":"Text","value":"Roll this trick when encountering more than one book; you unerringly find books containing up to result bits of useful information.\n","meta":{}},{"id":"097ea062-f9e1-460c-90f1-acff1b752d59","label":"USES","type":"SlotTracker","meta":{"helperText":"By default, you can use your tricks once per scene. Spend marks to increase!"},"value":[{"label":"","checked":false}]},{"id":"699ad0c9-1860-4646-83c4-996f885606b2","label":"MARKS","type":"PointCounter","meta":{"isMainPointCounter":false,"helperText":"Every time you roll max result for your trick dice add a mark; so if you roll your 2d6 trick dice and get a 4 and 6, you'd get a mark!<br><br>While resting, you can spend your marks(cost in parentheses) to:<br><br>- Increase the die size by one step (die size)<br>- Add another die (combined max)<br>- Gain another user per scene<br><br>"},"value":"0"}]},{"id":"173b5d52-e6db-482f-b156-a9e717531bf6","label":"Instant Calculation (Arithmancy)","blocks":[{"id":"0fe8939e-760a-4a93-b744-9d0f91469ddd","label":"TRICK DICE","type":"DicePool","value":"","meta":{"commands":["1d6"],"helperText":""}},{"id":"e78f03ca-66ad-4c3e-a41b-e617ab6bcf4f","label":"TRIGGER &AMP; EFFECT","type":"Text","value":"Roll this trick when trying to count, measure, or otherwise solve a problem with a numerical answer, adding the result to your test.\n","meta":{}},{"id":"068d2302-4fe8-4380-9e0c-ba3a0c60b6ad","label":"USES","type":"SlotTracker","meta":{"helperText":"By default, you can use your tricks once per scene. Spend marks to increase!"},"value":[{"label":"","checked":false}]},{"id":"7b3f66f2-04ff-4fd7-b8c3-f1ed3b279961","label":"MARKS","type":"PointCounter","meta":{"isMainPointCounter":false,"helperText":"Every time you roll max result for your trick dice add a mark; so if you roll your 2d6 trick dice and get a 4 and 6, you'd get a mark!<br><br>While resting, you can spend your marks(cost in parentheses) to:<br><br>- Increase the die size by one step (die size)<br>- Add another die (combined max)<br>- Gain another user per scene<br><br>"},"value":"0"}]}]},{"sections":[{"id":"fc26bab3-e812-4250-9415-d0de6de1f258","label":"(De)Humidifier (Hydromancy)","blocks":[{"id":"700a5eb7-264e-43dc-ac71-4779ad60dd2e","label":"TRICK DICE","type":"DicePool","value":"","meta":{"commands":["1d6"],"helperText":""}},{"id":"be8e3188-356e-4e14-94ac-f9d5561c97b0","label":"TRIGGER &AMP; EFFECT","type":"Text","value":"Roll this trick whenever you want to create or evaporate water. Result gallons appear/or disappear on your command.\n","meta":{}},{"id":"439cb883-4bec-463a-9de7-41ff2c328e93","label":"USES","type":"SlotTracker","meta":{"helperText":"By default, you can use your tricks once per scene. Spend marks to increase!"},"value":[{"label":"","checked":false}]},{"id":"d7fff6e6-754d-4f7a-a048-b6ea88e196b9","label":"MARKS","type":"PointCounter","meta":{"isMainPointCounter":false,"helperText":"Every time you roll max result for your trick dice add a mark; so if you roll your 2d6 trick dice and get a 4 and 6, you'd get a mark!<br><br>While resting, you can spend your marks(cost in parentheses) to:<br><br>- Increase the die size by one step (die size)<br>- Add another die (combined max)<br>- Gain another user per scene<br><br>"},"value":"0"}]},{"id":"0ad2fa03-d6ef-433e-9f7b-a01a7ccf6202","label":"Lapidarian Tongue (Geomancy)","blocks":[{"id":"412d0e6f-f947-4b48-8e00-fa08327d6205","label":"TRICK DICE","type":"DicePool","value":"","meta":{"commands":["1d6"],"helperText":""}},{"id":"a3e66d70-7d46-4b1d-bb83-44af679c3228","label":"TRIGGER &AMP; EFFECT","type":"Text","value":"Roll this trick when you lick a rock.\nOn a 1, nothing happens; on 2-5, you know exactly what the rock is; on a 6 or higher, you can taste the history of the world through it. Ask any question the rock might know and the ref will answer.\n","meta":{}},{"id":"590a7eb3-582a-4d4c-a50c-af9e984c3e80","label":"USES","type":"SlotTracker","meta":{"helperText":"By default, you can use your tricks once per scene. Spend marks to increase!"},"value":[{"label":"","checked":false}]},{"id":"abf4608d-c6af-4a88-99f7-9fe197c602a0","label":"MARKS","type":"PointCounter","meta":{"isMainPointCounter":false,"helperText":"Every time you roll max result for your trick dice add a mark; so if you roll your 2d6 trick dice and get a 4 and 6, you'd get a mark!<br><br>While resting, you can spend your marks(cost in parentheses) to:<br><br>- Increase the die size by one step (die size)<br>- Add another die (combined max)<br>- Gain another user per scene<br><br>"},"value":"0"}]}]}]}]},{"id":"cac14a1d-c310-4eeb-8f43-04e4d2cff0fc","label":"COMPANIONS &AMP; HIRELINGS","rows":[{"columns":[{"sections":[{"id":"6881bbc4-9bb7-4514-9a01-3c76e05d6912","label":"COMPANIONS","blocks":[{"id":"16d20d9b-b194-405a-a286-e5f92eb5807f","label":"COMPANION SLOTS","type":"SlotTracker","meta":{"helperText":"How many companions will follow you willingly and without remuneration. Default zero, spend HD marks to gain!"},"value":[]},{"id":"ad04215d-b7e5-4cdc-b986-d882b1af1583","label":"LIST OF COMPANIONS","type":"Text","value":"","meta":{}},{"id":"1695bdfe-2e42-4eb6-83ae-a17cafbf95a8","label":"RULES","type":"Text","value":"You can have as many companions as you have companion slots, if you can convince them to follow you. Companions are picaroons in their own right.\n\nHirelings are temporary followers who expect to be remunerated at least weekly and daily if asked to face danger (costs in silver).\n\nCost modifiers:\n\n* +1s per HD and die step\n* +1s per Domain die step\n* +1s per Trick die, die step, and extra use\n\n","meta":{}}]}]},{"sections":[{"id":"48e2b605-067f-42ae-a843-debc11fc00ac","label":"HIRELING: NAME (PRONOUNS)","blocks":[{"id":"9fc022ad-6579-49ba-a1af-7e67eb193609","label":"HIT DICE","type":"DicePool","value":"","meta":{"commands":["1d6"]}},{"id":"16a59b6b-3255-46f8-b739-c588a26814c8","label":"HIT POINTS","type":"PointCounter","meta":{"isMainPointCounter":false,"helperText":"How many hit points they have remaining; Roll HD when they can rest in relative safely for a week: if the result is higher than their current HP, that's their new HP!"},"value":"0"},{"id":"c3cd04d6-54f3-4dc8-bc21-ba68f718b309","label":"DOMAIN: NAME","type":"DicePool","value":"","meta":{"commands":["1d6","1d6"]}},{"id":"59a8ba51-fecd-4f76-948c-5b0bd2f32d67","label":"TRICK: NAME","type":"DicePool","value":"","meta":{"commands":["1d6"],"helperText":"Trigger and Effect text."}},{"id":"57a20c48-dc71-4668-9301-59dbbdb908b4","label":"EXPECTED PAY IN SILVER","type":"Numeric","value":"","meta":{"helperText":"Remunerate at least weekly; remunerate daily if asked to face danger."}}]}]}]}]}],"version":6,"fariType":"character"}
+{
+    "id": "54928692-4a0e-4155-8e51-0e0399a8104b",
+    "name": "Phiqil the Precocious (Pronouns)",
+    "group": "Azure Frogs",
+    "lastUpdated": 1657854954,
+    "wide": false,
+    "pages": [
+        {
+            "id": "89af02ee-6ba7-4c6a-9a1a-5e772f637911",
+            "label": "CHARACTER",
+            "rows": [
+                {
+                    "columns": [
+                        {
+                            "sections": [
+                                {
+                                    "id": "a6bf602f-d220-411d-8469-d4e21d63c338",
+                                    "label": "HIT DICE",
+                                    "blocks": [
+                                        {
+                                            "id": "8869f52a-5608-46de-b5b3-36e6cba6327c",
+                                            "label": "COUNT",
+                                            "type": "DicePool",
+                                            "value": "",
+                                            "meta": {
+                                                "commands": [
+                                                    "1d6"
+                                                ],
+                                                "helperText": "General measure of how experienced and tough you are."
+                                            }
+                                        },
+                                        {
+                                            "id": "2271b273-cb3d-4601-b9ac-c1d0b14630d2",
+                                            "label": "HIT POINTS",
+                                            "type": "PointCounter",
+                                            "meta": {
+                                                "isMainPointCounter": true,
+                                                "helperText": "How many hit points you have remaining; Roll HD when you can rest in relative safely for a week: if the result is higher than your current HP, that's your new HP!"
+                                            },
+                                            "value": "2"
+                                        },
+                                        {
+                                            "id": "e0a52ecf-73cb-48e8-83e4-cfd6918286ff",
+                                            "label": "MARKS",
+                                            "type": "PointCounter",
+                                            "meta": {
+                                                "isMainPointCounter": false,
+                                                "helperText": "Every time you roll max result for one of your HD, add a mark; so if you roll your 2d6 HD and get 4,6, you'd get one mark!<br><br>While resting, you can spend your marks (cost in parentheses) to:<br><br>- Increase the die size by one step (die size)<br>- Gain a new domain (domain count)<br>- Gain a companion slot (3x companion slot count)<br>- Add another die (combined max of your HD)<br>"
+                                            },
+                                            "value": "0"
+                                        },
+                                        {
+                                            "id": "a5c51930-bd95-4db2-bc90-42f94f4a1b40",
+                                            "label": "DOMAINLESS ACTION",
+                                            "type": "DicePool",
+                                            "value": "",
+                                            "meta": {
+                                                "commands": [
+                                                    "1d6"
+                                                ],
+                                                "helperText": "Roll a d6 when the outcome is uncertain and you don't have a relevant domain."
+                                            }
+                                        }
+                                    ],
+                                    "visibleOnCard": true
+                                },
+                                {
+                                    "id": "87aac620-6a8a-4bdd-bf2f-09cd46f46f8c",
+                                    "label": "POSSESSIONS",
+                                    "blocks": [
+                                        {
+                                            "id": "32e604c4-9ef5-4a3f-8cec-a06a37636dbc",
+                                            "label": "SILVER ON HAND",
+                                            "type": "Numeric",
+                                            "value": "0",
+                                            "meta": {}
+                                        },
+                                        {
+                                            "id": "910d1a64-0252-4917-8d99-d11cf34c1939",
+                                            "label": "SILVERED OWED TO (CREDITOR)",
+                                            "type": "Numeric",
+                                            "value": "0",
+                                            "meta": {}
+                                        },
+                                        {
+                                            "id": "7c77f55f-2384-4d69-9371-41a3535068de",
+                                            "label": "THINGS CARRIED",
+                                            "type": "Text",
+                                            "value": "A great book, a trashy book, a pot of ink, 3 quills, 6 blank scrolls, a library card, and a sack of smushed strawberry shortcakes. ",
+                                            "meta": {}
+                                        },
+                                        {
+                                            "id": "ba9ea223-d4dd-4ea1-987f-c69dd491de98",
+                                            "label": "THINGS STORED",
+                                            "type": "Text",
+                                            "value": "So many books. Too many books.",
+                                            "meta": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "sections": [
+                                {
+                                    "id": "94808117-3be8-4963-b2a0-4317ba22d003",
+                                    "label": "QUICK REFERENCE",
+                                    "blocks": [
+                                        {
+                                            "id": "5cbeb16d-3916-41b8-b2e5-390633687b3d",
+                                            "label": "Full Rules Text",
+                                            "type": "Link",
+                                            "meta": {
+                                                "hasDisplayName": true
+                                            },
+                                            "value": "https://picaroons.netlify.app/docs/picaroons/playing/"
+                                        },
+                                        {
+                                            "id": "dcbf9887-4192-4e86-9bee-76f1a299d93c",
+                                            "label": "CHARACTER CREATION",
+                                            "type": "Text",
+                                            "value": "HD starts at 1d6; roll it immediately to determine starting Hit Points. You also begin play with 6-HP Domains.",
+                                            "meta": {}
+                                        },
+                                        {
+                                            "id": "611e3411-a2e9-4803-90ef-b8fc964fc0a4",
+                                            "label": "DEBT",
+                                            "type": "DicePool",
+                                            "value": "",
+                                            "meta": {
+                                                "commands": [
+                                                    "2d6"
+                                                ],
+                                                "helperText": "Picaroons start out broke. You can take on debt to a patron, faction, or institution in increments of 2d6.The lower result die is the number of domains you get from your guarantor, the higher is how many d6x100 silver of debt you need to clear. Picaroons can always seek more debt.<br><br>So a result of 3, 4 would net you 3 domains but require you to take on 4d6 x 100 silver in debt!<br>"
+                                            }
+                                        },
+                                        {
+                                            "id": "651cc330-3e3f-49ff-8e4f-df9d4a7361d1",
+                                            "label": "ACTION RESOLUTION",
+                                            "type": "Text",
+                                            "value": "When an outcome is uncertain, roll d6; on 5+ (unless otherwise stated), succeed. When an outcome is contested, all sides roll d6; results favor higher rolls. If any domains are applicable to the uncertain or contested action, roll the highest applicable domain die and take the best result.\n\nAny time a die rolls its max result (6 on d6, 8 on d8), mark it. When you have marked a die as many times as the max, you can clear the marks to increase it by one step (d6 &gt; d8).\n\nWhen in an action scene, participants declare up to two actions in order from lowest HD to highest. Where there are ties, agree who goes first or roll off. All actions are resolved simultaneously as makes sense.\n\nDistances are tracked as zones: adjacent, nearby, distant, and far. Participants can move anywhere nearby as an action or distant as two actions.\r\n\nAttacks are always contested. In melee, the highest result is the damage dealt to the participant with the lowest result. At range, if the shooter’s result is lower, they miss.\n\r\n",
+                                            "meta": {}
+                                        },
+                                        {
+                                            "id": "31e2c2f9-fc2e-4bd0-b7a7-8d82c4e00994",
+                                            "label": "AT 0 HP",
+                                            "type": "Text",
+                                            "value": "When you drop to 0HP, choose one immediately:\n\n1. Carry On: Transfer all of your current marks to a loved one. You have died, but live on in them.\n2. Save Self: Make a test; if successful, return to 1HP but unable to participate for the rest of the scene.\n3. Use It: Sacrifice a HD to get back into it; reroll remaining HD to determine new your HP.\n4. Wait It Out: Roll HD; unless someone renders first aid in that many rounds, you die.\n\nA friend can spend an action to provide first aid, testing as normal to bring you back to 1HP. Alternatively, if rendering first aid after the combat scene ends, automatically succeed without a test.\n",
+                                            "meta": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "9d1d4c16-1899-4f9e-9228-58f9bb73849d",
+            "label": "DOMAINS",
+            "rows": [
+                {
+                    "columns": [
+                        {
+                            "sections": [
+                                {
+                                    "id": "4b49cbe3-c477-412a-b68b-0ad4b7028262",
+                                    "label": "Bibliomancy",
+                                    "blocks": [
+                                        {
+                                            "id": "f4bf27fe-fb3e-4926-883a-67f3568f68c8",
+                                            "label": "DOMAIN DIE (D6)",
+                                            "type": "DicePool",
+                                            "value": "",
+                                            "meta": {
+                                                "commands": [
+                                                    "1d6"
+                                                ],
+                                                "helperText": "Roll whenever this domain is applicable. If you increase the die size, be sure to reset the dice and then select a d6 and your new domain die size (e.g. d6 and d8). The higher result is better!"
+                                            }
+                                        },
+                                        {
+                                            "id": "eee4be5d-c7e0-45f8-8a0f-7ce527c7ac7c",
+                                            "label": "MARKS",
+                                            "type": "PointCounter",
+                                            "meta": {
+                                                "isMainPointCounter": false,
+                                                "helperText": "Every time you roll max result for your domain die add a mark; so if you roll your d6 domain die and get a 6, you'd get a mark!<br><br>While resting, you can spend your marks (cost in parentheses) to:<br><br>- Increase the die size by one step (die size)<br>- Gain a trick slot (3x trick slot count)<br><br>"
+                                            },
+                                            "value": "0"
+                                        },
+                                        {
+                                            "id": "980ed4d5-4a45-4d74-9a05-9cc6ae83b3a7",
+                                            "label": "AVAILABLE TRICKS",
+                                            "type": "SlotTracker",
+                                            "meta": {
+                                                "helperText": "How many tricks you can have for this domain; always at least one."
+                                            },
+                                            "value": [
+                                                {
+                                                    "label": "",
+                                                    "checked": false
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "f9eee397-7bcf-46c2-a753-b00adff45ef5",
+                                            "label": "TRICKS",
+                                            "type": "Text",
+                                            "value": "- Find An Interesting Book\n",
+                                            "meta": {
+                                                "helperText": "List your tricks here for easier remembering."
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "sections": [
+                                {
+                                    "id": "83fd986c-a056-419a-b061-8575f811cb6a",
+                                    "label": "Hydromancy",
+                                    "blocks": [
+                                        {
+                                            "id": "a9c602d4-62d2-4716-a519-573bcc485a75",
+                                            "label": "DOMAIN DIE (D6)",
+                                            "type": "DicePool",
+                                            "value": "",
+                                            "meta": {
+                                                "commands": [
+                                                    "1d6"
+                                                ],
+                                                "helperText": "Roll whenever this domain is applicable. If you increase the die size, be sure to reset the dice and then select a d6 and your new domain die size (e.g. d6 and d8). The higher result is better!"
+                                            }
+                                        },
+                                        {
+                                            "id": "02127aeb-64da-450e-8b48-ce742e74985a",
+                                            "label": "MARKS",
+                                            "type": "PointCounter",
+                                            "meta": {
+                                                "isMainPointCounter": false,
+                                                "helperText": "Every time you roll max result for your domain die add a mark; so if you roll your d6 domain die and get a 6, you'd get a mark!<br><br>While resting, you can spend your marks (cost in parentheses) to:<br><br>- Increase the die size by one step (die size)<br>- Gain a trick slot (3x trick slot count)<br><br>"
+                                            },
+                                            "value": "0"
+                                        },
+                                        {
+                                            "id": "3770d71f-dae7-4495-9055-9ef50f203c71",
+                                            "label": "AVAILABLE TRICKS",
+                                            "type": "SlotTracker",
+                                            "meta": {
+                                                "helperText": "How many tricks you can have for this domain; always at least one."
+                                            },
+                                            "value": [
+                                                {
+                                                    "label": "",
+                                                    "checked": false
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "955e2deb-0b01-40ae-9e8b-bd482764e50f",
+                                            "label": "TRICKS",
+                                            "type": "Text",
+                                            "value": "- Humidity Manipulation\n",
+                                            "meta": {
+                                                "helperText": "List your tricks here for easier remembering."
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "columns": [
+                        {
+                            "sections": [
+                                {
+                                    "id": "1da0fb97-205e-41b5-87c4-658314821d13",
+                                    "label": "Arithmancy",
+                                    "blocks": [
+                                        {
+                                            "id": "1d5a822c-dde8-48de-8a85-45f1cfccf999",
+                                            "label": "DOMAIN DIE (D6)",
+                                            "type": "DicePool",
+                                            "value": "",
+                                            "meta": {
+                                                "commands": [
+                                                    "1d6"
+                                                ],
+                                                "helperText": "Roll whenever this domain is applicable. If you increase the die size, be sure to reset the dice and then select a d6 and your new domain die size (e.g. d6 and d8). The higher result is better!"
+                                            }
+                                        },
+                                        {
+                                            "id": "f0846d38-6e2f-4719-a38c-838314ed918d",
+                                            "label": "MARKS",
+                                            "type": "PointCounter",
+                                            "meta": {
+                                                "isMainPointCounter": false,
+                                                "helperText": "Every time you roll max result for your domain die add a mark; so if you roll your d6 domain die and get a 6, you'd get a mark!<br><br>While resting, you can spend your marks (cost in parentheses) to:<br><br>- Increase the die size by one step (die size)<br>- Gain a trick slot (3x trick slot count)<br><br>"
+                                            },
+                                            "value": "0"
+                                        },
+                                        {
+                                            "id": "3244183e-2773-46fd-b019-8a56081b15dd",
+                                            "label": "AVAILABLE TRICKS",
+                                            "type": "SlotTracker",
+                                            "meta": {
+                                                "helperText": "How many tricks you can have for this domain; always at least one."
+                                            },
+                                            "value": [
+                                                {
+                                                    "label": "",
+                                                    "checked": false
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "e0267b3b-f7e6-4690-97e3-cb910317cba8",
+                                            "label": "TRICKS",
+                                            "type": "Text",
+                                            "value": "- Instant Calculation\n",
+                                            "meta": {
+                                                "helperText": "List your tricks here for easier remembering."
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "sections": [
+                                {
+                                    "id": "89c81068-e8ff-457a-81cb-0d651b97cdf1",
+                                    "label": "Geomancy",
+                                    "blocks": [
+                                        {
+                                            "id": "87441098-55f8-4276-b0e9-cd8ed0621104",
+                                            "label": "DOMAIN DIE (D6)",
+                                            "type": "DicePool",
+                                            "value": "",
+                                            "meta": {
+                                                "commands": [
+                                                    "1d6"
+                                                ],
+                                                "helperText": "Roll whenever this domain is applicable. If you increase the die size, be sure to reset the dice and then select a d6 and your new domain die size (e.g. d6 and d8). The higher result is better!"
+                                            }
+                                        },
+                                        {
+                                            "id": "e8f93857-e8d6-454b-a5ff-3d1dee4f3939",
+                                            "label": "MARKS",
+                                            "type": "PointCounter",
+                                            "meta": {
+                                                "isMainPointCounter": false,
+                                                "helperText": "Every time you roll max result for your domain die add a mark; so if you roll your d6 domain die and get a 6, you'd get a mark!<br><br>While resting, you can spend your marks (cost in parentheses) to:<br><br>- Increase the die size by one step (die size)<br>- Gain a trick slot (3x trick slot count)<br><br>"
+                                            },
+                                            "value": "0"
+                                        },
+                                        {
+                                            "id": "b375d8b9-4ecb-4ea4-a9d4-3ff8c523eedb",
+                                            "label": "AVAILABLE TRICKS",
+                                            "type": "SlotTracker",
+                                            "meta": {
+                                                "helperText": "How many tricks you can have for this domain; always at least one."
+                                            },
+                                            "value": [
+                                                {
+                                                    "label": "",
+                                                    "checked": false
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "59c06b1b-8b12-486e-8bcb-db741d700823",
+                                            "label": "TRICKS",
+                                            "type": "Text",
+                                            "value": "- Lapidarian Tongue\n",
+                                            "meta": {
+                                                "helperText": "List your tricks here for easier remembering."
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "a31ad513-4a92-423f-aada-b2ce23272a3b",
+            "label": "TRICKS",
+            "rows": [
+                {
+                    "columns": [
+                        {
+                            "sections": [
+                                {
+                                    "id": "dd1ea283-eb20-4ad7-bc92-b652c84d46d4",
+                                    "label": "Discovery (Bibliomancy)",
+                                    "blocks": [
+                                        {
+                                            "id": "2e17540e-07e3-4d3d-9832-7639526b786a",
+                                            "label": "TRICK DICE",
+                                            "type": "DicePool",
+                                            "value": "",
+                                            "meta": {
+                                                "commands": [
+                                                    "1d6"
+                                                ],
+                                                "helperText": ""
+                                            }
+                                        },
+                                        {
+                                            "id": "ae8d360f-940f-4559-a7a3-be0a484382af",
+                                            "label": "TRIGGER &AMP; EFFECT",
+                                            "type": "Text",
+                                            "value": "Roll this trick when encountering more than one book; you unerringly find books containing up to result bits of useful information.\n",
+                                            "meta": {}
+                                        },
+                                        {
+                                            "id": "097ea062-f9e1-460c-90f1-acff1b752d59",
+                                            "label": "USES",
+                                            "type": "SlotTracker",
+                                            "meta": {
+                                                "helperText": "By default, you can use your tricks once per scene. Spend marks to increase!"
+                                            },
+                                            "value": [
+                                                {
+                                                    "label": "",
+                                                    "checked": false
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "699ad0c9-1860-4646-83c4-996f885606b2",
+                                            "label": "MARKS",
+                                            "type": "PointCounter",
+                                            "meta": {
+                                                "isMainPointCounter": false,
+                                                "helperText": "Every time you roll max result for your trick dice add a mark; so if you roll your 2d6 trick dice and get a 4 and 6, you'd get a mark!<br><br>While resting, you can spend your marks(cost in parentheses) to:<br><br>- Increase the die size by one step (die size)<br>- Add another die (combined max)<br>- Gain another user per scene<br><br>"
+                                            },
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "173b5d52-e6db-482f-b156-a9e717531bf6",
+                                    "label": "Instant Calculation (Arithmancy)",
+                                    "blocks": [
+                                        {
+                                            "id": "0fe8939e-760a-4a93-b744-9d0f91469ddd",
+                                            "label": "TRICK DICE",
+                                            "type": "DicePool",
+                                            "value": "",
+                                            "meta": {
+                                                "commands": [
+                                                    "1d6"
+                                                ],
+                                                "helperText": ""
+                                            }
+                                        },
+                                        {
+                                            "id": "e78f03ca-66ad-4c3e-a41b-e617ab6bcf4f",
+                                            "label": "TRIGGER &AMP; EFFECT",
+                                            "type": "Text",
+                                            "value": "Roll this trick when trying to count, measure, or otherwise solve a problem with a numerical answer, adding the result to your test.\n",
+                                            "meta": {}
+                                        },
+                                        {
+                                            "id": "068d2302-4fe8-4380-9e0c-ba3a0c60b6ad",
+                                            "label": "USES",
+                                            "type": "SlotTracker",
+                                            "meta": {
+                                                "helperText": "By default, you can use your tricks once per scene. Spend marks to increase!"
+                                            },
+                                            "value": [
+                                                {
+                                                    "label": "",
+                                                    "checked": false
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "7b3f66f2-04ff-4fd7-b8c3-f1ed3b279961",
+                                            "label": "MARKS",
+                                            "type": "PointCounter",
+                                            "meta": {
+                                                "isMainPointCounter": false,
+                                                "helperText": "Every time you roll max result for your trick dice add a mark; so if you roll your 2d6 trick dice and get a 4 and 6, you'd get a mark!<br><br>While resting, you can spend your marks(cost in parentheses) to:<br><br>- Increase the die size by one step (die size)<br>- Add another die (combined max)<br>- Gain another user per scene<br><br>"
+                                            },
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "sections": [
+                                {
+                                    "id": "fc26bab3-e812-4250-9415-d0de6de1f258",
+                                    "label": "(De)Humidifier (Hydromancy)",
+                                    "blocks": [
+                                        {
+                                            "id": "700a5eb7-264e-43dc-ac71-4779ad60dd2e",
+                                            "label": "TRICK DICE",
+                                            "type": "DicePool",
+                                            "value": "",
+                                            "meta": {
+                                                "commands": [
+                                                    "1d6"
+                                                ],
+                                                "helperText": ""
+                                            }
+                                        },
+                                        {
+                                            "id": "be8e3188-356e-4e14-94ac-f9d5561c97b0",
+                                            "label": "TRIGGER &AMP; EFFECT",
+                                            "type": "Text",
+                                            "value": "Roll this trick whenever you want to create or evaporate water. Result gallons appear/or disappear on your command.\n",
+                                            "meta": {}
+                                        },
+                                        {
+                                            "id": "439cb883-4bec-463a-9de7-41ff2c328e93",
+                                            "label": "USES",
+                                            "type": "SlotTracker",
+                                            "meta": {
+                                                "helperText": "By default, you can use your tricks once per scene. Spend marks to increase!"
+                                            },
+                                            "value": [
+                                                {
+                                                    "label": "",
+                                                    "checked": false
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "d7fff6e6-754d-4f7a-a048-b6ea88e196b9",
+                                            "label": "MARKS",
+                                            "type": "PointCounter",
+                                            "meta": {
+                                                "isMainPointCounter": false,
+                                                "helperText": "Every time you roll max result for your trick dice add a mark; so if you roll your 2d6 trick dice and get a 4 and 6, you'd get a mark!<br><br>While resting, you can spend your marks(cost in parentheses) to:<br><br>- Increase the die size by one step (die size)<br>- Add another die (combined max)<br>- Gain another user per scene<br><br>"
+                                            },
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "0ad2fa03-d6ef-433e-9f7b-a01a7ccf6202",
+                                    "label": "Lapidarian Tongue (Geomancy)",
+                                    "blocks": [
+                                        {
+                                            "id": "412d0e6f-f947-4b48-8e00-fa08327d6205",
+                                            "label": "TRICK DICE",
+                                            "type": "DicePool",
+                                            "value": "",
+                                            "meta": {
+                                                "commands": [
+                                                    "1d6"
+                                                ],
+                                                "helperText": ""
+                                            }
+                                        },
+                                        {
+                                            "id": "a3e66d70-7d46-4b1d-bb83-44af679c3228",
+                                            "label": "TRIGGER &AMP; EFFECT",
+                                            "type": "Text",
+                                            "value": "Roll this trick when you lick a rock.\nOn a 1, nothing happens; on 2-5, you know exactly what the rock is; on a 6 or higher, you can taste the history of the world through it. Ask any question the rock might know and the ref will answer.\n",
+                                            "meta": {}
+                                        },
+                                        {
+                                            "id": "590a7eb3-582a-4d4c-a50c-af9e984c3e80",
+                                            "label": "USES",
+                                            "type": "SlotTracker",
+                                            "meta": {
+                                                "helperText": "By default, you can use your tricks once per scene. Spend marks to increase!"
+                                            },
+                                            "value": [
+                                                {
+                                                    "label": "",
+                                                    "checked": false
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "abf4608d-c6af-4a88-99f7-9fe197c602a0",
+                                            "label": "MARKS",
+                                            "type": "PointCounter",
+                                            "meta": {
+                                                "isMainPointCounter": false,
+                                                "helperText": "Every time you roll max result for your trick dice add a mark; so if you roll your 2d6 trick dice and get a 4 and 6, you'd get a mark!<br><br>While resting, you can spend your marks(cost in parentheses) to:<br><br>- Increase the die size by one step (die size)<br>- Add another die (combined max)<br>- Gain another user per scene<br><br>"
+                                            },
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "cac14a1d-c310-4eeb-8f43-04e4d2cff0fc",
+            "label": "COMPANIONS &AMP; HIRELINGS",
+            "rows": [
+                {
+                    "columns": [
+                        {
+                            "sections": [
+                                {
+                                    "id": "6881bbc4-9bb7-4514-9a01-3c76e05d6912",
+                                    "label": "COMPANIONS",
+                                    "blocks": [
+                                        {
+                                            "id": "16d20d9b-b194-405a-a286-e5f92eb5807f",
+                                            "label": "COMPANION SLOTS",
+                                            "type": "SlotTracker",
+                                            "meta": {
+                                                "helperText": "How many companions will follow you willingly and without remuneration. Default zero, spend HD marks to gain!"
+                                            },
+                                            "value": []
+                                        },
+                                        {
+                                            "id": "ad04215d-b7e5-4cdc-b986-d882b1af1583",
+                                            "label": "LIST OF COMPANIONS",
+                                            "type": "Text",
+                                            "value": "",
+                                            "meta": {}
+                                        },
+                                        {
+                                            "id": "1695bdfe-2e42-4eb6-83ae-a17cafbf95a8",
+                                            "label": "RULES",
+                                            "type": "Text",
+                                            "value": "You can have as many companions as you have companion slots, if you can convince them to follow you. Companions are picaroons in their own right.\n\nHirelings are temporary followers who expect to be remunerated at least weekly and daily if asked to face danger (costs in silver).\n\nCost modifiers:\n\n* +1s per HD and die step\n* +1s per Domain die step\n* +1s per Trick die, die step, and extra use\n\n",
+                                            "meta": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "sections": [
+                                {
+                                    "id": "48e2b605-067f-42ae-a843-debc11fc00ac",
+                                    "label": "HIRELING: NAME (PRONOUNS)",
+                                    "blocks": [
+                                        {
+                                            "id": "9fc022ad-6579-49ba-a1af-7e67eb193609",
+                                            "label": "HIT DICE",
+                                            "type": "DicePool",
+                                            "value": "",
+                                            "meta": {
+                                                "commands": [
+                                                    "1d6"
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "id": "16a59b6b-3255-46f8-b739-c588a26814c8",
+                                            "label": "HIT POINTS",
+                                            "type": "PointCounter",
+                                            "meta": {
+                                                "isMainPointCounter": false,
+                                                "helperText": "How many hit points they have remaining; Roll HD when they can rest in relative safely for a week: if the result is higher than their current HP, that's their new HP!"
+                                            },
+                                            "value": "0"
+                                        },
+                                        {
+                                            "id": "c3cd04d6-54f3-4dc8-bc21-ba68f718b309",
+                                            "label": "DOMAIN: NAME",
+                                            "type": "DicePool",
+                                            "value": "",
+                                            "meta": {
+                                                "commands": [
+                                                    "1d6",
+                                                    "1d6"
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "id": "59a8ba51-fecd-4f76-948c-5b0bd2f32d67",
+                                            "label": "TRICK: NAME",
+                                            "type": "DicePool",
+                                            "value": "",
+                                            "meta": {
+                                                "commands": [
+                                                    "1d6"
+                                                ],
+                                                "helperText": "Trigger and Effect text."
+                                            }
+                                        },
+                                        {
+                                            "id": "57a20c48-dc71-4668-9301-59dbbdb908b4",
+                                            "label": "EXPECTED PAY IN SILVER",
+                                            "type": "Numeric",
+                                            "value": "",
+                                            "meta": {
+                                                "helperText": "Remunerate at least weekly; remunerate daily if asked to face danger."
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "version": 6,
+    "fariType": "character"
+}
