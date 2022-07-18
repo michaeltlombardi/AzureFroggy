@@ -1,0 +1,507 @@
+{
+    "id": "9ea797c4-a567-460f-9ebe-e852aa0bcb90",
+    "name": "Maximi Wrangler, Pest Catcher (Pronouns)",
+    "group": "Azure Frogs",
+    "lastUpdated": 1658170303,
+    "wide": false,
+    "pages": [
+        {
+            "id": "0c218334-f968-417c-baa5-b54611994f05",
+            "label": "CHARACTER",
+            "rows": [
+                {
+                    "columns": [
+                        {
+                            "sections": [
+                                {
+                                    "id": "f23d6703-8cb4-4c8d-9279-11739700b7b8",
+                                    "label": "HIT DICE",
+                                    "blocks": [
+                                        {
+                                            "id": "0db30611-872d-4721-b20a-a778dfd852df",
+                                            "label": "COUNT",
+                                            "type": "DicePool",
+                                            "value": "",
+                                            "meta": {
+                                                "commands": [
+                                                    "1d6"
+                                                ],
+                                                "helperText": "General measure of how experienced and tough you are."
+                                            }
+                                        },
+                                        {
+                                            "id": "dec99675-72c1-4d6c-a5e2-687c6dc9c1a5",
+                                            "label": "HIT POINTS",
+                                            "type": "PointCounter",
+                                            "meta": {
+                                                "isMainPointCounter": true,
+                                                "helperText": "How many hit points you have remaining; Roll HD when you can rest in relative safely for a week: if the result is higher than your current HP, that's your new HP!"
+                                            },
+                                            "value": "4"
+                                        },
+                                        {
+                                            "id": "91285766-9f83-47ca-9f1e-0a90ef5a00ab",
+                                            "label": "MARKS",
+                                            "type": "PointCounter",
+                                            "meta": {
+                                                "isMainPointCounter": false,
+                                                "helperText": "Every time you roll max result for one of your HD, add a mark; so if you roll your 2d6 HD and get 4,6, you'd get one mark!<br><br>While resting, you can spend your marks (cost in parentheses) to:<br><br>- Increase the die size by one step (die size)<br>- Gain a new domain (domain count)<br>- Gain a companion slot (3x companion slot count)<br>- Add another die (combined max of your HD)<br>"
+                                            },
+                                            "value": "0"
+                                        },
+                                        {
+                                            "id": "dced51c8-dee7-4d05-8c72-7b6636d85e39",
+                                            "label": "DOMAINLESS ACTION",
+                                            "type": "DicePool",
+                                            "value": "",
+                                            "meta": {
+                                                "commands": [
+                                                    "1d6"
+                                                ],
+                                                "helperText": "Roll a d6 when the outcome is uncertain and you don't have a relevant domain."
+                                            }
+                                        }
+                                    ],
+                                    "visibleOnCard": true
+                                },
+                                {
+                                    "id": "51fb5b14-cb0c-48da-a67c-977d4b933ce9",
+                                    "label": "POSSESSIONS",
+                                    "blocks": [
+                                        {
+                                            "id": "96d052a7-877c-4a6f-b0e9-a9a63f8762bf",
+                                            "label": "SILVER ON HAND",
+                                            "type": "Numeric",
+                                            "value": "0",
+                                            "meta": {}
+                                        },
+                                        {
+                                            "id": "3dcb50fd-3cbc-49e7-a3c8-e51003f7c024",
+                                            "label": "SILVER OWED TO (CREDITOR)",
+                                            "type": "Numeric",
+                                            "value": "0",
+                                            "meta": {}
+                                        },
+                                        {
+                                            "id": "33136fb8-4b99-4a74-94b2-1211860e4426",
+                                            "label": "THINGS CARRIED",
+                                            "type": "Text",
+                                            "value": "A small but vicious dog (obviously) and a fine leather leash and collar, a handcart, prodding pole, smoker, 1 medium sized trap and 3 small ones.",
+                                            "meta": {}
+                                        },
+                                        {
+                                            "id": "5b22bb48-f01e-4be0-afc3-3bc99bf0b6fe",
+                                            "label": "THINGS STORED",
+                                            "type": "Text",
+                                            "value": "Amateur taxidermy kit and 3 badly stuffed squirrels.",
+                                            "meta": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "sections": [
+                                {
+                                    "id": "7868f45c-0428-4e46-985d-4a18232106c1",
+                                    "label": "QUICK REFERENCE",
+                                    "blocks": [
+                                        {
+                                            "id": "58f370bd-6b14-47b6-9473-7d2c57e88224",
+                                            "label": "Full Rules Text",
+                                            "type": "Link",
+                                            "meta": {
+                                                "hasDisplayName": true
+                                            },
+                                            "value": "https://picaroons.netlify.app/docs/picaroons/playing/"
+                                        },
+                                        {
+                                            "id": "092d8438-dcbb-46e5-96f9-014f21efbf72",
+                                            "label": "CHARACTER CREATION",
+                                            "type": "Text",
+                                            "value": "HD starts at 1d6; roll it immediately to determine starting Hit Points. You also begin play with 6-HP Domains.",
+                                            "meta": {}
+                                        },
+                                        {
+                                            "id": "d8053c2b-12f5-415a-ba07-e70e58ef32d5",
+                                            "label": "DEBT",
+                                            "type": "DicePool",
+                                            "value": "",
+                                            "meta": {
+                                                "commands": [
+                                                    "2d6"
+                                                ],
+                                                "helperText": "Picaroons start out broke. You can take on debt to a patron, faction, or institution in increments of 2d6.The lower result die is the number of domains you get from your guarantor, the higher is how many d6x100 silver of debt you need to clear. Picaroons can always seek more debt.<br><br>So a result of 3, 4 would net you 3 domains but require you to take on 4d6 x 100 silver in debt!<br>"
+                                            }
+                                        },
+                                        {
+                                            "id": "2b44655e-6fa9-46ee-9f76-d9f23839b190",
+                                            "label": "ACTION RESOLUTION",
+                                            "type": "Text",
+                                            "value": "When an outcome is uncertain, roll d6; on 5+ (unless otherwise stated), succeed. When an outcome is contested, all sides roll d6; results favor higher rolls. If any domains are applicable to the uncertain or contested action, roll the highest applicable domain die and take the best result.\n\nAny time a die rolls its max result (6 on d6, 8 on d8), mark it. When you have marked a die as many times as the max, you can clear the marks to increase it by one step (d6 &gt; d8).\n\nWhen in an action scene, participants declare up to two actions in order from lowest HD to highest. Where there are ties, agree who goes first or roll off. All actions are resolved simultaneously as makes sense.\n\nDistances are tracked as zones: adjacent, nearby, distant, and far. Participants can move anywhere nearby as an action or distant as two actions.\r\n\nAttacks are always contested. In melee, the highest result is the damage dealt to the participant with the lowest result. At range, if the shooter’s result is lower, they miss.\n\r\n",
+                                            "meta": {}
+                                        },
+                                        {
+                                            "id": "e4c8e51c-0d3f-4210-be0a-f8752d919830",
+                                            "label": "AT 0 HP",
+                                            "type": "Text",
+                                            "value": "When you drop to 0HP, choose one immediately:\n\n1. Carry On: Transfer all of your current marks to a loved one. You have died, but live on in them.\n2. Save Self: Make a test; if successful, return to 1HP but unable to participate for the rest of the scene.\n3. Use It: Sacrifice a HD to get back into it; reroll remaining HD to determine new your HP.\n4. Wait It Out: Roll HD; unless someone renders first aid in that many rounds, you die.\n\nA friend can spend an action to provide first aid, testing as normal to bring you back to 1HP. Alternatively, if rendering first aid after the combat scene ends, automatically succeed without a test.\n",
+                                            "meta": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "87915510-2960-418d-8de4-7c3c2c957d9f",
+            "label": "DOMAINS",
+            "rows": [
+                {
+                    "columns": [
+                        {
+                            "sections": [
+                                {
+                                    "id": "03072f12-6cba-43ce-9322-3fb43d9fdce0",
+                                    "label": "Gnarly Mutt",
+                                    "blocks": [
+                                        {
+                                            "id": "8d6dde70-6909-4c09-a1c8-7ef4741c8e75",
+                                            "label": "DOMAIN DIE (D6)",
+                                            "type": "DicePool",
+                                            "value": "",
+                                            "meta": {
+                                                "commands": [
+                                                    "1d6",
+                                                    "1d6"
+                                                ],
+                                                "helperText": "Roll whenever this domain is applicable. If you increase the die size, be sure to reset the dice and then select a d6 and your new domain die size (e.g. d6 and d8). The higher result is better!"
+                                            }
+                                        },
+                                        {
+                                            "id": "6d10ee0e-1392-4cac-9fff-e198d1a68bc7",
+                                            "label": "MARKS",
+                                            "type": "PointCounter",
+                                            "meta": {
+                                                "isMainPointCounter": false,
+                                                "helperText": "Every time you roll max result for your domain die add a mark; so if you roll your d6 domain die and get a 6, you'd get a mark!<br><br>While resting, you can spend your marks (cost in parentheses) to:<br><br>- Increase the die size by one step (die size)<br>- Gain a trick slot (3x trick slot count)<br><br>"
+                                            },
+                                            "value": "0"
+                                        },
+                                        {
+                                            "id": "bb7cd028-b8eb-4b7f-8319-ea0d6821bf8e",
+                                            "label": "AVAILABLE TRICKS",
+                                            "type": "SlotTracker",
+                                            "meta": {
+                                                "helperText": "How many tricks you can have for this domain; always at least one."
+                                            },
+                                            "value": [
+                                                {
+                                                    "label": "",
+                                                    "checked": false
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "9f040a4e-85de-48b2-8e08-37fecf4acd71",
+                                            "label": "TRICKS",
+                                            "type": "Text",
+                                            "value": "- Bully\n",
+                                            "meta": {
+                                                "helperText": "List your tricks here for easier remembering."
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "sections": [
+                                {
+                                    "id": "532d8944-e308-4033-a7a8-c8669df29e5f",
+                                    "label": "Rusted Scythe",
+                                    "blocks": [
+                                        {
+                                            "id": "cc465220-84c0-4032-8931-1a1d6688ad8a",
+                                            "label": "DOMAIN DIE (D6)",
+                                            "type": "DicePool",
+                                            "value": "",
+                                            "meta": {
+                                                "commands": [
+                                                    "1d6",
+                                                    "1d6"
+                                                ],
+                                                "helperText": "Roll whenever this domain is applicable. If you increase the die size, be sure to reset the dice and then select a d6 and your new domain die size (e.g. d6 and d8). The higher result is better!"
+                                            }
+                                        },
+                                        {
+                                            "id": "b5359214-9040-4679-98df-20c9d9df8944",
+                                            "label": "MARKS",
+                                            "type": "PointCounter",
+                                            "meta": {
+                                                "isMainPointCounter": false,
+                                                "helperText": "Every time you roll max result for your domain die add a mark; so if you roll your d6 domain die and get a 6, you'd get a mark!<br><br>While resting, you can spend your marks (cost in parentheses) to:<br><br>- Increase the die size by one step (die size)<br>- Gain a trick slot (3x trick slot count)<br><br>"
+                                            },
+                                            "value": "0"
+                                        },
+                                        {
+                                            "id": "2e4d34e3-3c47-4f4e-a744-f0be16de1b3b",
+                                            "label": "AVAILABLE TRICKS",
+                                            "type": "SlotTracker",
+                                            "meta": {
+                                                "helperText": "How many tricks you can have for this domain; always at least one."
+                                            },
+                                            "value": [
+                                                {
+                                                    "label": "",
+                                                    "checked": false
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "082adad3-80d0-4a7f-984f-92a25eedaccd",
+                                            "label": "TRICKS",
+                                            "type": "Text",
+                                            "value": "- Sweep\n",
+                                            "meta": {
+                                                "helperText": "List your tricks here for easier remembering."
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "8f3c79bb-8832-4490-bbbe-5c9a71657f76",
+            "label": "TRICKS",
+            "rows": [
+                {
+                    "columns": [
+                        {
+                            "sections": [
+                                {
+                                    "id": "707aa143-43a1-4c8a-aa01-36008a4631d5",
+                                    "label": "Bully (Gnarly Mutt)",
+                                    "blocks": [
+                                        {
+                                            "id": "af07cab3-390d-467f-8328-70c4b1c47098",
+                                            "label": "TRICK DICE",
+                                            "type": "DicePool",
+                                            "value": "",
+                                            "meta": {
+                                                "commands": [
+                                                    "1d6"
+                                                ],
+                                                "helperText": ""
+                                            }
+                                        },
+                                        {
+                                            "id": "35b99cd7-9efb-48d2-b082-ece64258a51e",
+                                            "label": "TRIGGER &AMP; EFFECT",
+                                            "type": "Text",
+                                            "value": "When attacking something smaller than your dog (rats, gremlins, certain children), add your trick dice. \n",
+                                            "meta": {}
+                                        },
+                                        {
+                                            "id": "a6744a3b-d260-4708-a700-42e06d752440",
+                                            "label": "USES",
+                                            "type": "SlotTracker",
+                                            "meta": {
+                                                "helperText": "By default, you can use your tricks once per scene. Spend marks to increase!"
+                                            },
+                                            "value": [
+                                                {
+                                                    "label": "",
+                                                    "checked": false
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "e8fe8a8f-b2fb-4a68-ab02-45d41b593f60",
+                                            "label": "MARKS",
+                                            "type": "PointCounter",
+                                            "meta": {
+                                                "isMainPointCounter": false,
+                                                "helperText": "Every time you roll max result for your trick dice add a mark; so if you roll your 2d6 trick dice and get a 4 and 6, you'd get a mark!<br><br>While resting, you can spend your marks(cost in parentheses) to:<br><br>- Increase the die size by one step (die size)<br>- Add another die (combined max)<br>- Gain another user per scene<br><br>"
+                                            },
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "sections": [
+                                {
+                                    "id": "f179753e-19b7-4e4c-8298-307d300f0b0d",
+                                    "label": "Sweep (Rusted Scythe)",
+                                    "blocks": [
+                                        {
+                                            "id": "5c78f0b7-2a86-4bf8-b7be-d9bca67889a8",
+                                            "label": "TRICK DICE",
+                                            "type": "DicePool",
+                                            "value": "",
+                                            "meta": {
+                                                "commands": [
+                                                    "1d6"
+                                                ],
+                                                "helperText": ""
+                                            }
+                                        },
+                                        {
+                                            "id": "a1f6cf08-6c53-44df-986b-81f1dcd2c290",
+                                            "label": "TRIGGER &AMP; EFFECT",
+                                            "type": "Text",
+                                            "value": "Forego damage to roll your trick dice and render that many enemies prone\n",
+                                            "meta": {}
+                                        },
+                                        {
+                                            "id": "6592a97f-6fa6-4df0-9997-76ec80f9d3bd",
+                                            "label": "USES",
+                                            "type": "SlotTracker",
+                                            "meta": {
+                                                "helperText": "By default, you can use your tricks once per scene. Spend marks to increase!"
+                                            },
+                                            "value": [
+                                                {
+                                                    "label": "",
+                                                    "checked": false
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "6498cfaa-239b-4b2f-98db-4029b5178434",
+                                            "label": "MARKS",
+                                            "type": "PointCounter",
+                                            "meta": {
+                                                "isMainPointCounter": false,
+                                                "helperText": "Every time you roll max result for your trick dice add a mark; so if you roll your 2d6 trick dice and get a 4 and 6, you'd get a mark!<br><br>While resting, you can spend your marks(cost in parentheses) to:<br><br>- Increase the die size by one step (die size)<br>- Add another die (combined max)<br>- Gain another user per scene<br><br>"
+                                            },
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "24c4b94e-d783-453f-83d6-8405c17e8591",
+            "label": "COMPANIONS &AMP; HIRELINGS",
+            "rows": [
+                {
+                    "columns": [
+                        {
+                            "sections": [
+                                {
+                                    "id": "c2e1a7a0-b944-4bc4-b774-f59264bb7232",
+                                    "label": "COMPANIONS",
+                                    "blocks": [
+                                        {
+                                            "id": "f49fd497-69bd-4ba3-b5f4-c40f5998d003",
+                                            "label": "COMPANION SLOTS",
+                                            "type": "SlotTracker",
+                                            "meta": {
+                                                "helperText": "How many companions will follow you willingly and without remuneration. Default zero, spend HD marks to gain!"
+                                            },
+                                            "value": []
+                                        },
+                                        {
+                                            "id": "b414e32c-a0cb-402e-b681-1821921cd62e",
+                                            "label": "LIST OF COMPANIONS",
+                                            "type": "Text",
+                                            "value": "",
+                                            "meta": {}
+                                        },
+                                        {
+                                            "id": "45929731-e776-467e-a30b-22575e195f99",
+                                            "label": "RULES",
+                                            "type": "Text",
+                                            "value": "You can have as many companions as you have companion slots, if you can convince them to follow you. Companions are picaroons in their own right.\n\nHirelings are temporary followers who expect to be remunerated at least weekly and daily if asked to face danger (costs in silver).\n\nCost modifiers:\n\n* +1s per HD and die step\n* +1s per Domain die step\n* +1s per Trick die, die step, and extra use\n\n",
+                                            "meta": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "sections": [
+                                {
+                                    "id": "5b9fe5d2-b734-427d-a462-f9d254e55621",
+                                    "label": "HIRELING: NAME (PRONOUNS)",
+                                    "blocks": [
+                                        {
+                                            "id": "29203ee7-2c2b-4d47-b1b4-9afb5af62b54",
+                                            "label": "HIT DICE",
+                                            "type": "DicePool",
+                                            "value": "",
+                                            "meta": {
+                                                "commands": [
+                                                    "1d6"
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "id": "d18c1914-436b-41e6-aa8f-570c2c872e51",
+                                            "label": "HIT POINTS",
+                                            "type": "PointCounter",
+                                            "meta": {
+                                                "isMainPointCounter": false,
+                                                "helperText": "How many hit points they have remaining; Roll HD when they can rest in relative safely for a week: if the result is higher than their current HP, that's their new HP!"
+                                            },
+                                            "value": "0"
+                                        },
+                                        {
+                                            "id": "60a00098-e21d-40cc-b77e-f998f8a4e56a",
+                                            "label": "DOMAIN: NAME",
+                                            "type": "DicePool",
+                                            "value": "",
+                                            "meta": {
+                                                "commands": [
+                                                    "1d6",
+                                                    "1d6"
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "id": "aa9c0374-d305-4f7f-a03b-1f208771e21b",
+                                            "label": "TRICK: NAME",
+                                            "type": "DicePool",
+                                            "value": "",
+                                            "meta": {
+                                                "commands": [
+                                                    "1d6"
+                                                ],
+                                                "helperText": "Trigger and Effect text."
+                                            }
+                                        },
+                                        {
+                                            "id": "547c07df-33fe-45eb-84c0-2ee021a416e5",
+                                            "label": "EXPECTED PAY IN SILVER",
+                                            "type": "Numeric",
+                                            "value": "",
+                                            "meta": {
+                                                "helperText": "Remunerate at least weekly; remunerate daily if asked to face danger."
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "version": 6,
+    "fariType": "character"
+}
