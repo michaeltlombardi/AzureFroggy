@@ -168,8 +168,12 @@ follow the instructions.
 - I'd like to look into things a bit, but I might need help 😊
   1. Read about the [Playkit](#the-playkit-picaroons).
   1. Decide whether to make your own character or choose a [ready-made one](#a-cast-of-characters).
-     - If you're going with a ready-made character, you can either use them as-is or you can modify them; feel free to change anything on the sheet to suit your needs!
-     - If you're going with making your own character, see [Making a Character](#making-a-character) for how you can do that in Fari.
+     - If you're going with a ready-made character, you can either use them
+       as-is or you can modify them; feel free to change anything on the sheet
+       to suit your needs!
+     - If you're going with making your own character, see
+       [Making a Character](#making-a-character) for how you can do that in
+       Fari.
 - This is old hat, wizard, nothing in your tomes will challenge me ✨
   1. You don't need instructions, you've got this. 💜
   1. But if you'd _really_ like to help, you can make a couple characters and submit them to this
@@ -183,8 +187,33 @@ you make your own character if that's what you want.
 
 ## A Cast of Characters
 
-- [Phiqil the Precocious][phiqil-json]: Lots of learning, not very tough. Has access to book magic,
-  water magic, math magic, and earth magic.
+Aside from _Phiqil the Precocious_, all of the other characters here are
+courtesy of [Roz Leahy][roz-carrd], a friend who also happens to be an
+incredible writer and co-runs [Two Rats Press][two-rats-press].
+
+Any mistakes in the character sheets are Mikey's transcription and editorial
+oopsies.
+
+- [Axel Filthrot][axel-md] ([JSON][axel-json]): Failed Apothecary.
+- [Baldo Dash][baldo-md] ([JSON][baldo-json]): Disgraced Duellist.
+- [Barba Ryan][barba-md] ([JSON][barba-json]): Brutal but Fashionable.
+- [Benji Swumpguts][benji-md] ([JSON][benji-json]): Swamp Pyromancer.
+- [Bill Posters][bill-md] ([JSON][bill-json]): Crack Shot.
+- [Cat Highlander][cat-md] ([JSON][cat-json]): Union Man.
+- [Chance Horseboy][chance-md] ([JSON][chance-json]): Handsome Centaur.
+- [Herbert Doorpost][herbert-md] ([JSON][herbert-json]): Thickheaded Psychic.
+- [Jot Patina][jot-md] ([JSON][jot-json]): Sneaky Alchemist.
+- [Maximi Wrangler][maximi-md] ([JSON][maximi-json]): Pest Catcher.
+- [Murk][murk-md] ([JSON][murk-json]): Pirate Without a Boat.
+- [Nobu Oupsee][nobu-md] ([JSON][nobu-json]): Knightly Seamster.
+- [Phiqil the Precocious][phiqil-md] ([JSON][phiqil-json]): Bookworm Mage.
+- [Plume][plume-md] ([JSON][plume-json]): Possessed Armour.
+- [Punished Mattheas][punished-md] ([JSON][punished-json]): Indebted Penitent.
+- [Scud Ruckuss][scud-md] ([JSON][scud-json]): Partying Mechanic.
+- [Stealy Dan][stealy-md] ([JSON][stealy-json]): Simple Thief.
+- [Tiss Transom][tiss-md] ([JSON][tiss-json]): Slippery Entomancer.
+- [Troos Wean][troos-md] ([JSON][troos-json]): Circus Dropout.
+- [Wick Williams][wick-md] ([JSON][wick-json]): Freeform Flautist.
 
 > **Note**
 > Mikey will be adding more pre-generated characters soon and will keep everyone updated as he does!
@@ -294,24 +323,67 @@ here or use a generator:
 - [Maze Rats][random-equipment-mr]: Click as many times as you want.
 - [Reddit][random-equipment-reddit]: Roll as directed.
 
+<!-- Links -->
 [fari-docs]: https://fari.games/en/resources/fari-rpgs/fari-app-wiki
 [fari-home]: https://fari.app
 [fari-play]: https://fari.app/play/join/40451d02-a304-41f1-bf39-1df0dd4034ca
-[gh-issue]: https://github.com/michaeltlombardi/AzureFroggy/issues/new
 [gh-discussion]: https://github.com/michaeltlombardi/AzureFroggy/discussions
+[gh-issue]: https://github.com/michaeltlombardi/AzureFroggy/issues/new
 [gif-circles]: media/fari-circle-numbers.gif
 [gif-custom]: media/fari-custom-dice.gif
 [gif-import]: media/fari-import.gif
 [gif-nav]: media/fari-nav.gif
 [gif-roll]: media/fari-roll.gif
-[phiqil-json]: characters/phiqil-the-precocious.fari.json
 [picaroons-home]: https://picaroons.netlify.app/docs/picaroons/playing/
 [picaroons-tricks]: https://picaroons.netlify.app/docs/picaroons/playing/tricks/
 [random-200]: https://numbergenerator.org/randomnumbergenerator/1-200
-[random-equipment-odnd]: http://swordandscoundrel.blogspot.com/2016/04/random-starting-equipment-for-bx-or.html
 [random-equipment-mr]: https://chartopia.d12dev.com/chart/2525/
+[random-equipment-odnd]: http://swordandscoundrel.blogspot.com/2016/04/random-starting-equipment-for-bx-or.html
 [random-equipment-reddit]: https://www.reddit.com/r/DnDBehindTheScreen/comments/dvi791/d100_interesting_and_different_starting_equipment/
 [random-skill-perchance]: https://perchance.org/55gbojfr4p
+[roz-carrd]: https://rozleahy.carrd.co/
 [rp-twitter]: https://twitter.com/RPDeshaies
 [seventh-sanctum]: https://www.seventhsanctum.com/index-skill.php
 [table-failed-careers]: https://tenfootpolemic.blogspot.com/2014/01/200-failed-medieval-careers.html
+[two-rats-press]: https://tworatspress.bigcartel.com/
+<!-- Characters -->
+[axel-json]:     characters/axel-filthrot-failed-apothecary.fari.json
+[axel-md]:       characters/axel-filthrot-failed-apothecary.md
+[baldo-json]:    characters/baldo-dash-disgraced-duellist.fari.json
+[baldo-md]:      characters/baldo-dash-disgraced-duellist.md
+[barba-json]:    characters/barba-ryan-brutal-but-fashionable.fari.json
+[barba-md]:      characters/barba-ryan-brutal-but-fashionable.md
+[benji-json]:    characters/benji-swumpguts-swamp-pyromancer.fari.json
+[benji-md]:      characters/benji-swumpguts-swamp-pyromancer.md
+[bill-json]:     characters/bill-posters-crack-shot.fari.json
+[bill-md]:       characters/bill-posters-crack-shot.md
+[cat-json]:      characters/cat-highlander-union-man.fari.json
+[cat-md]:        characters/cat-highlander-union-man.md
+[chance-json]:   characters/chance-horseboy-handsome-centaur.fari.json
+[chance-md]:     characters/chance-horseboy-handsome-centaur.md
+[herbert-json]:  characters/herbert-doorpost-thickheaded-psychic.fari.json
+[herbert-md]:    characters/herbert-doorpost-thickheaded-psychic.md
+[jot-json]:      characters/jot-patina-sneaky-alchemist.fari.json
+[jot-md]:        characters/jot-patina-sneaky-alchemist.md
+[maximi-json]:   characters/maximi-wrangler-pest-catcher.fari.json
+[maximi-md]:     characters/maximi-wrangler-pest-catcher.md
+[murk-json]:     characters/murk-pirate-without-a-boat.fari.json
+[murk-md]:       characters/murk-pirate-without-a-boat.md
+[nobu-json]:     characters/nobu-oupsee-knightly-seamster.fari.json
+[nobu-md]:       characters/nobu-oupsee-knightly-seamster.md
+[phiqil-json]:   characters/phiqil-the-precocious.fari.json
+[phiqil-md]:     characters/phiqil-the-precocious.md
+[plume-json]:    characters/plume-possessed-armour.fari.json
+[plume-md]:      characters/plume-possessed-armour.md
+[punished-json]: characters/punished-mattheas-indebted-penitent.fari.json
+[punished-md]:   characters/punished-mattheas-indebted-penitent.md
+[scud-json]:     characters/scud-ruckuss-partying-mechanic.fari.json
+[scud-md]:       characters/scud-ruckuss-partying-mechanic.md
+[stealy-json]:   characters/stealy-dan-simple-thief.fari.json
+[stealy-md]:     characters/stealy-dan-simple-thief.md
+[tiss-json]:     characters/tiss-transom-slippery-entomancer.fari.json
+[tiss-md]:       characters/tiss-transom-slippery-entomancer.md
+[troos-json]:    characters/troos-wean-circus-dropout.fari.json
+[troos-md]:      characters/troos-wean-circus-dropout.md
+[wick-json]:     characters/wick-williams-freeform-flautist.fari.json
+[wick-md]:       characters/wick-williams-freeform-flautist.md
