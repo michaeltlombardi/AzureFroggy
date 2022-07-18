@@ -16,7 +16,7 @@
 
 ### Debts
 
-None.
+- 800 to Dub Muskrat: Owes Dub Muskrat the dowry from a wedding they stepped out on
 
 ## Domains
 

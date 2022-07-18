@@ -17,7 +17,7 @@
 
 ### Debts
 
-None.
+- 1000 to Dean Boatridge: Paying off a fine to the local lordling for attempted vigilantism
 
 ## Domains
 

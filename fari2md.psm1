@@ -317,10 +317,12 @@ function Import-CharacterSection {
             $_.Label -match '^Silver(ed)? owed'
           }
           foreach ($Block in $DebtBlocks) {
-            if ($_.Label -match '^Silver(ed)? owed to \(?(?<Creditor>(?!Creditor)[^\)]+)\)?') {
+
+            if ($Block.label -match '^Silver(ed)? owed to \(?(?<Creditor>(?!Creditor)[^\(\)]+)\)?') {
               $Character.Possessions.Debts += [Debt]@{
-                Creditor = $Matches.Creditor
-                Silver   = $Block.Value
+                Creditor    = $Matches.Creditor
+                Silver      = $Block.Value
+                Description = $Block.Meta.HelperText
               }
             }
           }
