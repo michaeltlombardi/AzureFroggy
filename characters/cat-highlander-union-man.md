@@ -22,7 +22,7 @@ None.
 
 ### Propagandist
 
-- Die Size: Die
+- Die Size: d6
 - Trick Slots: 1 / 1
 - Marks: 0
 
@@ -38,7 +38,7 @@ When encountering a new situation, roll your trick dice. You have that many wild
 
 ### Street Rat
 
-- Die Size: Die
+- Die Size: d6
 - Trick Slots: 1 / 1
 - Marks: 0
 
@@ -54,7 +54,7 @@ When you spend time begging on the street, roll your trick dice. You get that mu
 
 ### Heavy Hammer
 
-- Die Size: Die
+- Die Size: d6
 - Trick Slots: 1 / 1
 - Marks: 0
 

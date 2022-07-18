@@ -22,7 +22,7 @@ None.
 
 ### Bibliomancy
 
-- Die Size: Die
+- Die Size: d6
 - Trick Slots: 1 / 1
 - Marks: 0
 
@@ -38,7 +38,7 @@ Roll this trick when encountering more than one book; you unerringly find books 
 
 ### Hydromancy
 
-- Die Size: Die
+- Die Size: d6
 - Trick Slots: 1 / 1
 - Marks: 0
 
@@ -54,7 +54,7 @@ Roll this trick whenever you want to create or evaporate water. Result gallons a
 
 ### Arithmancy
 
-- Die Size: Die
+- Die Size: d6
 - Trick Slots: 1 / 1
 - Marks: 0
 
@@ -70,7 +70,7 @@ Roll this trick when trying to count, measure, or otherwise solve a problem with
 
 ### Geomancy
 
-- Die Size: Die
+- Die Size: d6
 - Trick Slots: 1 / 1
 - Marks: 0
 

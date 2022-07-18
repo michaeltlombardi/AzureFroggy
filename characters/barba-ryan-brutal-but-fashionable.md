@@ -22,7 +22,7 @@ None.
 
 ### Striking Weapon
 
-- Die Size: Die
+- Die Size: d6
 - Trick Slots: 1 / 1
 - Marks: 0
 
@@ -38,7 +38,7 @@ Roll the trick dice when you are defending; deal the result as damage to attacke
 
 ### Striking Clothes
 
-- Die Size: Die
+- Die Size: d6
 - Trick Slots: 1 / 1
 - Marks: 0
 

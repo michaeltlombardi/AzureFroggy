@@ -72,6 +72,10 @@ class Die {
   Die([string]$DiceString) {
     $this.Size = $DiceString -split 'd' | Select-Object -Last 1
   }
+
+  [string] ToString() {
+    return "d$($this.Size)"
+  }
 }
 
 class Dice {

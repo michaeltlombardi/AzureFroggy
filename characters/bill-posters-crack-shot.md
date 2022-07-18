@@ -23,7 +23,7 @@
 
 ### Archery
 
-- Die Size: Die
+- Die Size: d6
 - Trick Slots: 1 / 1
 - Marks: 0
 
@@ -39,7 +39,7 @@ When attacking at range, add the trick die to your total.
 
 ### Flyering
 
-- Die Size: Die
+- Die Size: d6
 - Trick Slots: 1 / 1
 - Marks: 0
 

@@ -22,7 +22,7 @@ None.
 
 ### Dual Pistols
 
-- Die Size: Die
+- Die Size: d6
 - Trick Slots: 1 / 1
 - Marks: 0
 
@@ -38,7 +38,7 @@ Add your trick dice when in a scrum.
 
 ### Nimble Footed
 
-- Die Size: Die
+- Die Size: d6
 - Trick Slots: 1 / 1
 - Marks: 0
 
@@ -54,7 +54,7 @@ When an opponent fails to hit you, add your trick dice to your next attack again
 
 ### A Bag Full of Bandages
 
-- Die Size: Die
+- Die Size: d6
 - Trick Slots: 1 / 1
 - Marks: 0
 

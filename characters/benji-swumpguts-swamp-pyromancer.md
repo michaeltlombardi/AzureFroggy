@@ -22,7 +22,7 @@
 
 ### Pyromancy
 
-- Die Size: Die
+- Die Size: d6
 - Trick Slots: 1 / 1
 - Marks: 0
 
@@ -38,7 +38,7 @@ When surrounded, roll the trick die to to deal that much damage to everyone in c
 
 ### Hand Axe
 
-- Die Size: Die
+- Die Size: d6
 - Trick Slots: 1 / 1
 - Marks: 0
 
@@ -54,7 +54,7 @@ When you fling your axe with purpose, roll the trick dice in addition to your da
 
 ### Potioncraft
 
-- Die Size: Die
+- Die Size: d6
 - Trick Slots: 1 / 1
 - Marks: 0
 
@@ -70,7 +70,7 @@ When a character rubs your mixture into a wound, roll the trick dice. They heal 
 
 ### Navigation
 
-- Die Size: Die
+- Die Size: d6
 - Trick Slots: 1 / 1
 - Marks: 0
 
@@ -86,7 +86,7 @@ When you can see the stars, roll the trick dice. For the next [result] miles, yo
 
 ### Whittling
 
-- Die Size: Die
+- Die Size: d6
 - Trick Slots: 1 / 1
 - Marks: 0
 
