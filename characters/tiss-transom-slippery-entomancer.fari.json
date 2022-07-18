@@ -77,9 +77,9 @@
                                         },
                                         {
                                             "id": "423a9ea9-f8be-4dcc-ab7d-e5509402f86c",
-                                            "label": "Silve Owed to Moe Stagwhale",
+                                            "label": "Silver Owed to Moe Stagwhale",
                                             "type": "Numeric",
-                                            "value": "999",
+                                            "value": "1900",
                                             "meta": {
                                                 "helperText": "You mortgaged your expensive violin to pay for adventuring school. Moe Stagwhale will not be happy if you miss a payment.&nbsp;"
                                             }

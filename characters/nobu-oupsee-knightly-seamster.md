@@ -16,7 +16,7 @@
 
 ### Debts
 
-- 999 to Burt Heelsaw: Burt Heelsaw paid up front for a fancy garment that you have absolutely no idea how to make
+- 1700 to Burt Heelsaw: Burt Heelsaw paid up front for a fancy garment that you have absolutely no idea how to make
 
 ## Domains
 

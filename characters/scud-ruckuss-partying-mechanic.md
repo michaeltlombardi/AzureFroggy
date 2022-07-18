@@ -16,7 +16,7 @@
 
 ### Debts
 
-- 999 to Bower Sanction: Medical Debt, owed to Bower Sanction, the only physician who would excise your haunted boil.
+- 1500 to Bower Sanction: Medical Debt, owed to Bower Sanction, the only physician who would excise your haunted boil.
 
 ## Domains
 
