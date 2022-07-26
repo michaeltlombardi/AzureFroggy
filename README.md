@@ -204,7 +204,7 @@ oopsies.
 - [Herbert Doorpost][herbert-md] ([JSON][herbert-json]): Thickheaded Psychic.
 - [Jot Patina][jot-md] ([JSON][jot-json]): Sneaky Alchemist.
 - [Maximi Wrangler][maximi-md] ([JSON][maximi-json]): Pest Catcher.
-- [Murk][murk-md] ([JSON][murk-json]): Pirate Without a Boat.
+- [~~Murk~~][murk-md] ([JSON][murk-json]): Pirate Without a Boat. (Played by Cynthia)
 - [Nobu Oupsee][nobu-md] ([JSON][nobu-json]): Knightly Seamster.
 - [Phiqil the Precocious][phiqil-md] ([JSON][phiqil-json]): Bookworm Mage.
 - [Plume][plume-md] ([JSON][plume-json]): Possessed Armour.
