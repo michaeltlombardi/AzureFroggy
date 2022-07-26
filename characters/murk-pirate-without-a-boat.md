@@ -1,6 +1,6 @@
 # Murk, Pirate Without a Boat
 
-**Pronouns:** Pronouns
+**Pronouns:** They/Them
 
 ## Hit Dice
 
